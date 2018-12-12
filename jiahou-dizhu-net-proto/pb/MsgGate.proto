@@ -1,0 +1,243 @@
+//当前协议版本1.5.5
+
+
+package ProtoNet;
+option java_package = "com.version.protobuf.pb";
+import "MsgCode.proto";
+
+message AccountInfo{
+	optional string name = 1;//用户登录名
+	optional string nick = 2;//玩家昵称
+	optional int32 uid = 3;//玩家id
+	optional int32 sex = 4;//玩家性别
+	optional string phone = 5;//玩家手机号
+	optional string email = 6;//玩家登陆账号
+	optional int32 head = 7;//玩家头像类型
+	optional string headUrl = 8;//玩家头像url
+	optional int32 lv = 9;//玩家等级
+	optional int32 vip = 10;//玩家vip等级
+	optional string ipaddress = 11;//ip地址
+	optional string address = 12;//地址
+	optional int32 inviter=13;//邀请人id
+	optional string qq=14;//微信
+	optional string wechat=15;//微信
+	optional string idCard=16;//身份证号
+	optional string realName=17;//身份证上的名字
+	optional string sign=19;
+	repeated PlayerAccount counts = 20;//账户信息
+	optional LastGameInfo lastGameInfo = 21;//最后进入游戏信息
+}
+	
+message LastGameInfo{
+	optional int32 gameId = 1;//游戏id数据为0时不在任何游戏中
+	optional LastGameInfoDetail detail = 2;
+	optional ServerInfoIpsSafeDetail gate = 3;//链接的gate服务
+	optional ServerInfoIpsSafeDetail logic = 4;//链接的logic服务
+}
+
+message LastGameInfoDetail{
+	optional int32 type =1 ;//游戏类型
+	optional string roomId = 2;//房间id
+	optional int32 status = 3;//房间状态
+}
+
+
+message GameZoneInfo{
+	optional int32 gameId = 1;//游戏Id
+	optional bool isOpen = 3;//是否开启
+}
+
+
+
+message ServerInfoIpsSafeDetail{
+	optional int32 serverId = 1;//服务器id号
+	optional string serverName = 2;//服务器名称
+	optional int32 playerNum = 3;//当前人数
+	optional bool isOpen = 4;//是否开启
+	repeated SafeIpAndPortDetail safeIpAndPortDetails = 5;//安全链接信息
+}
+
+
+message SafeIpAndPortDetail{
+	optional string safeIp=1;
+	optional string safePort = 2;
+	optional string evironment = 3;
+	optional string safeHttpPort = 4;
+}
+
+message GoldRoomServerInfos{
+	required string roomId = 1;//房间id
+	required string roomName = 2;//房间名称
+	required string roomerUniqueId = 3;//房主id
+	required string roomerNickName = 4;//房主昵称
+	required string roomerHeadImg = 5;//头像
+	required int32 roomerHeadType = 6;//本地资源头像类型
+	required int32 roomType = 7;//房间类型(这里只会是金币场类型)
+	required int32 gameId = 8;//游戏id
+	required int32 timesType = 9;//场次类型
+	required ServerInfoIpsSafeDetail serverInfo = 10;//房间所在线路信息 
+}
+
+
+message TimesInfo{
+	required int32 timesType = 1;//场次类型
+	required string timesName = 2;//场次名称
+	required double minNeed = 3;//入场需要最少
+	required double yazhu = 4;//底分押注
+	required int32 atype = 5;//货币类型 账户类型1001：金币 1002：砖石 1003
+	required int32 roomType = 6;//房间类型
+	optional string extendStr = 7;//额外扩展字段
+}
+
+
+
+//REQ_GATE_LOGIN = 899999;//请求gate服务器登陆
+message ReqGateLogin{
+	required int32 playerId = 1;//globalserver获取到的playerId
+	required string ticket = 2;//globalServer获取到的ticket
+	required string evironment = 3;//登陆的环境
+}
+
+
+//RES_GATE_LOGIN = 899998;//返回gate服务器登陆
+message ResGateLogin{
+	required ResponseResult result = 1;//返回gate服务器登陆认证结果
+}
+
+//REQ_GET_ACCOUNTINFO = 899997;//请求获取账号信息
+message ReqGetAccountInfo{
+	required int32 playerId = 1;//玩家的id
+}
+
+//RES_GET_ACCOUNTINFO = 899996;//返回获取账号信息
+message ResGetAccountInfo{
+	required ResponseResult result = 1;//获取玩家数据接口返回结果
+	optional AccountInfo accountInfo = 2;//玩家数据信息
+}
+
+//REQ_GET_GAMEZONEINFO_LIST = 899995;//请求获取游戏信息列表
+message ReqGetGameZoneInfoList{
+}
+
+//RES_GET_GAMEZONEINFO_LIST = 899994;//返回获取游戏信息列表
+message ResGetGameZoneInfoList{
+	required ResponseResult result = 1;//获取游戏信息返回结果
+	repeated GameZoneInfo gameZoneInfos = 2;//游戏zone数据信息
+}
+
+//REQ_GET_GAMEZONE_DETAIL = 899993;//请求获取指定游戏内厅信息
+message ReqGetGameZoneDetail{
+	required int32 gameId = 1;//游戏id
+	required int32 roomType = 2;//房间类型
+}
+
+//RES_GET_GAMEZONE_DETAIL = 899992;//返回获取指定游戏内厅信息
+message ResGetGameZoneDetail{
+	required ResponseResult result = 1;//返回获取指定游戏内厅信息
+	optional int32 gameId = 2;//游戏id
+	repeated ServerInfoIpsSafeDetail logicDetails = 3;//线路信息
+	repeated TimesInfo timesInfos = 4;//场次信息
+}
+
+
+
+//REQ_JOIN_LOGIC_GAMEROOM = 899991;//请求加入逻辑服务器游戏房间
+message ReqJoinLogicGameRoom{
+	required string roomId = 1;//房间号
+}
+
+//RES_JOIN_LOGIC_GAMEROOM = 899990;//返回加入逻辑服务器游戏房间
+message ResJoinLogicGameRoom{
+	required ResponseResult result = 1;//返回获取指定游戏内厅信息
+	optional ServerInfoIpsSafeDetail bestServerInfo = 2;//房间所在线路信息
+	optional int32 gameId = 3;//游戏Id
+	optional int32 roomType = 4;//房间类型
+	optional int32 timesType = 5;//场次类型
+}
+
+
+//REQ_QUICK_JOIN_GAMEROOM = 899989;//请求快速加入游戏房间
+message ReqQuickJoinGameRoom{
+	required int32 gameId = 1;//游戏id
+	required int32 roomType = 2;//房间类型
+	required int32 timesType = 3;//场次类型
+	optional string pipeiParam = 4;//特殊匹配参数由客户端自己维护
+}
+
+//RES_QUICK_JOIN_GAMEROOM = 899988;//返回快速加入游戏房间结果
+message ResQuickJoinGameRoom{
+	required ResponseResult result = 1;//返回获取指定游戏内厅信息
+	optional int32 operate = 2;//操作类型,0创建房间 1加入房间 2之前强退房间
+	optional int32 roomType = 3;//房间类型(这里只会是金币场类型)
+	optional ServerInfoIpsSafeDetail bestServerInfo = 4;//房间所在线路信息 (operate=1时有该参数)
+	optional string roomId = 5;//加入房间号(operate=1和2时有该参数)
+	repeated ServerInfoIpsSafeDetail logicDetails = 6;//线路信息(当operate=0时有该参数)
+	optional int32 gameId = 7;//游戏id
+	optional int32 timesType = 8;//场次类型
+}
+
+//RES_NOTIFY_BROAD_PLAT_MARQUEE = 899987;//返回通知广播平台跑马灯
+message ResNotifyBroadPlatMarquee{
+	required int32 type = 1;//来源0文字跑马灯  1图片广告位
+	required string msg = 2;//消息 1时为url链接
+	required int32 count = 3;//滚动次数
+}
+
+//RES_NOTIFY_SELF_DATA_CHANGE = 899986;//返回通知自身数据改变
+message ResNotifySelfDataChange{
+	required AccountInfo accountInfo = 1;//变化后的角色数据
+	optional int32 charge = 2;//1充值  2其他
+}
+
+
+//REQ_GET_ROOMBRIFE_LIST = 899985;//请求获取房间简略信息列表(金币场该接口有数据)
+message ReqGetRoomBrifeList{
+	required int32 gameId = 1;//游戏id
+}
+
+//RES_GET_ROOMBRIFE_LIST = 899984;//返回获取房间简略信息列表(金币场该接口有数据)
+message ResGetRoomBrifeList{
+	required ResponseResult result = 1;//返回获取指定游戏内厅信息
+	repeated GoldRoomServerInfos goldRoomServerInfos = 2;//金币房间链路信息
+}
+
+
+
+//REQ_GAME_ROOM_LIST = 899975;//请求房间列表(金币场)
+message ReqGameRoomList{
+	required int32 gameId = 1;//游戏id
+	required int32 timesType = 2;//场次类型(100所有场次)
+}
+
+//RES_GAME_ROOM_LIST = 899974;//返回房间列表(金币场)
+message ResGameRoomList{
+	required ResponseResult result = 1;
+	repeated GameRoomList list = 2;
+}
+
+message GameRoomList{
+	required string roomId = 1;//房间id
+	required string paramString = 2;//房间额外参数
+	required double yazhu = 3;//压住
+	required int32 halfWayJoin = 4;//是否允许中途加入
+	required int32 maxPlayerNum = 5;//最大人数
+	required double minNeed = 6;//最低入场
+	required string pipeiParam = 7;//匹配参数
+	required ServerInfoIpsSafeDetail serverInfo = 8;//房间所在线路信息
+	required int32 gameId = 9;//游戏Id
+	required int32 currentPlayerNum = 10;//当前人数
+	required int32 roomStatus = 11;//准备0 开始1
+	required int32 currentWatchPlayerNum = 12;//当前观战人数
+	optional int32 roomType=13;//房间类型
+	optional int32 timesType = 14;//场次类型
+	repeated RoomRoleInfo roomRoleInfo = 15;//房间角色信息
+}
+
+message RoomRoleInfo{
+	required string uniqueId = 1;//玩家的id
+	required string nickName = 2;//昵称
+	required string headImg = 3;//头像
+	required int32 head = 4;//头像
+	required int32 pos = 5;//位置
+}
+

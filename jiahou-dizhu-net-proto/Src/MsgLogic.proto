@@ -1,0 +1,394 @@
+//当前协议版本1.6.0
+
+package ProtoNet;
+option java_package = "com.version.protobuf.pb";
+import "MsgCode.proto";
+import "MsgGate.proto";
+
+
+message SdkController{
+	required string uniqueId = 1;//唯一标识,游戏的playerId
+	required string nickName = 2;//昵称
+	required string headImg = 3;//头像
+	required string ip = 4;//玩家所在ip
+	required int32 headType = 5;//本地资源头像类型
+	required double health = 6;//财富
+	required int32 sex = 7;//性别	
+	optional int32 selfRank = 8;//比赛场中玩家的排名(比赛场才有该字段)
+	optional int32 robot = 9;//是否为机器人0否1是
+	optional int32 watcher = 10;//是否有座位的观战者 0 不是观战者 1有座位观战者 2无座位观战者
+	optional int32 lv = 11;//等级
+	optional string extendStr = 12;//扩展属性
+}
+
+message PosBrife{
+	required int32 pos = 1;//位置从1开始
+	optional string controllerUniqueId=2;//角色的唯一id
+	optional int32 online = 3;//在线状态0离线  1在线
+	optional int32 ready = 4;//是否已准备 0未准备 1准备
+}
+
+message RoomInfo{
+	required string roomId = 1;//房间id唯一标识
+	required string roomName = 2;//房间名称
+	required string roomerUniqueId = 3;//房主的id
+	repeated SdkController controllers = 4;//房间里面所有的人
+	optional string extendStr = 5;//房间扩展属性(这里放置json串,字段可扩展)
+	required int32 roomStatus = 6;//房间状态0 ready 1choose_dizhu 2gaming
+	repeated PosBrife posBrifes = 7;//位置信息
+	required int32 leftMatchCount = 8;//剩余局数
+	required int32 totalCount = 9;//总局数
+	required DissolutionStatus dissolutionStatus= 10;//房间解散的数据
+	required int32 maxPlayerNum = 11;//最大人数
+	required int32 currentPlayerNum = 12;//当前人数
+	optional int64 readyTimer = 13;//金币模式倒计时(毫秒)
+	optional int32 gameId = 14;//游戏id
+	optional int32 roomType = 15;//房间类型
+	optional int32 timesType = 16;//场次类型
+	optional double yazhu = 17;//押注底分
+	optional int32 watting = 18;//比赛场是否在等待中(比赛场才会存在该字段)0等待 1不等待及开始游戏
+	optional int32 from = 19;//30-15 30
+	optional int32 to = 20;//30-15 15
+	optional string serverExtend = 21;//服务器额外扩展配置
+	optional int32 fangkaJinbi = 22;//默认是0  当roomType=1时且该值为1代表房卡金币场
+	optional string chargeList = 23;//正在充值的玩家  多个id以,隔开        1.3.0版本增加该字段
+	optional string ext = 24;//后期额外扩展           1.3.0版本增加该字段
+	optional string clubId = 25;//俱乐部ID
+	optional string tableNum = 26;//固定桌号,1.5.5版本增加,配合新俱乐部使用
+	optional string clubGameTypeId = 27;//俱乐部内部场次ID
+}
+
+
+message DissolutionStatus{
+	required int32 dissolutionStatus = 1;//1表示有人发起解散  0没有解散
+	optional string reqUniqueId = 2;//发起解散的人
+	repeated DissolutionStatusDetail details = 3;//解散数据
+	optional int64 leftTimer = 4;//剩余倒计时(毫秒)
+}
+
+
+message DissolutionStatusDetail{
+	required string roomId = 1;
+	required string controllerUniqueId = 2;//玩家id
+	required int32 agree = 3;//0未处理 1同意 2不同意
+	required int32 pos = 4;//所在位置
+}
+
+
+
+//REQ_LOGIC_LOGIN = 799999;//请求gate服务器登陆
+message ReqLogicLogin{
+	required string account = 1;//globalserver获取到的playerId
+	required string ticket = 2;//globalServer获取到的ticket
+}
+
+
+//RES_LOGIC_LOGIN = 799998;//返回gate服务器登陆
+message ResLogicLogin{
+	required ResponseResult result = 1;//返回gate服务器登陆认证结果
+}
+
+//REQ_CREATE_GAMEROOM = 799997;//请求创建房间
+message ReqCreateGameRoom{
+	required int32 roomType = 1;//房间类型
+	required int32 times = 2;//局数
+	optional string paramString = 3;//各个游戏房间特殊的参数字段
+	required int32 timesType = 4;//场次类型
+	optional int32 payType = 5;//付费类型 0房主付费 1 AA 2无房费(roomType==2房卡场时该参数有效)
+	optional int32 halfWayJoin = 6;//是否允许中途加入2不允许 1允许 (该参数若不传,使用服务器配置参数)
+	optional int32 maxPlayerNum = 7;//最大人数(该参数若不传,会使用服务器配置参数)
+	optional double yazhu = 8;//押注底分(若不传,使用服务器配置参数)
+	optional int32 fangkaJinbi = 9;//0默认不是,1是(roomType=1金币场时该参数有效)
+	optional double minNeed = 10;//最低入场(若不传,使用服务器配置参数)
+	optional string pipeiParam = 11;//特殊匹配参数由客户端自己维护
+	optional string clubId = 12;//俱乐部ID 选传项目
+	optional string clubTableNum = 13;//俱乐部房间 固定桌号 选传
+	optional string clubGameTypeId = 14;//俱乐部房间 玩法id 选传
+}
+
+//RES_CREATE_GAMEROOM = 799996;//返回创建房间结果
+message ResCreateGameRoom{
+	required ResponseResult result = 1;//返回创建房间结果
+	optional int64 readyTimer=2;//金币场准备倒计时,金币场有该数据(毫秒)
+}
+
+
+//RES_NOTIFY_GAMEROOM_CREATE = 799995;//通知房间被创建
+message ResNotifyGameRoomCreate{
+	required string roomId = 1;
+}
+
+
+//REQ_JOIN_GAMEROOM = 799994;//请求加入游戏房间
+message ReqJoinGameRoom{
+	required string roomId = 1;
+}
+
+//RES_JOIN_GAMEROOM = 799993;//返回加入游戏房间
+message ResJoinGameRoom{
+	required ResponseResult result = 1;//返回创建房间结果
+	optional RoomInfo roomInfo = 2;//房间信息
+	optional int64 readyTimer=3;//金币场准备倒计时,金币场有该数据(毫秒)
+}
+
+//RES_NOTIFY_SOMEONE_JOIN_GAMEROOM = 799992;//通知某人加入游戏房间
+message ResNotifySomeOneJoinGameRoom{
+	required string roomId = 1;//房间id
+	required SdkController controller = 2;//加入玩家的信息
+	required PosBrife posBrife = 3;//玩家位置信息
+}
+
+//REQ_EXIT_GAMEROOM = 799991;//请求主动退出游戏房间
+message ReqExitGameRoom{
+}
+
+//RES_EXIT_GAMEROOM = 799990;//返回主动退出游戏房间结果
+message ResExitGameRoom{
+	required ResponseResult result = 1;//返回创建房间结果
+}
+
+//RES_NOTIFY_SOMEONE_EXIT_GAMEROOM = 799989;//通知某人退出游戏房间
+message ResNotifySomeOneExitGameRoom{
+	required string roomId = 1;//房间id
+	required SdkController controller = 2;//退出房间玩家的信息
+}
+
+
+//REQ_GAME_READY = 799988;//请求准备游戏
+message ReqGameReady{
+	required bool ready = 1;//是否准备
+}
+
+//RES_GAME_READY = 799987;//返回准备游戏结果
+message ResGameReady{
+	required ResponseResult result = 1;//返回结果
+}
+
+
+
+
+
+
+
+//REQ_DISSOLUTION_GAMEROOM = 799983;//请求解散房间
+message ReqDissolutionGameRoom{
+}
+
+//RES_DISSOLUTION_GAMEROOM = 799982;//返回解散房间结果
+message ResDissolutionGameRoom{
+	required ResponseResult result = 1;//返回结果
+}
+
+
+//RES_NOTIFY_SOMEONE_REQ_DISSOLUTION_GAMEROOM = 799981;//返回通知某人请求解散房间
+message ResNotifySomeOneReqDissolutionGameRoom{
+	required string roomId = 1;//房间id
+	required SdkController controller = 2;//请求解散房间玩家的数据
+	required PosBrife posBrife = 3;//玩家位置信息
+	required int64 timer = 4;//倒计时(毫秒)
+}
+
+
+//REQ_AGREE_DISSOLUTION_GAMEROOM = 799980;//请求同意解散房间
+message ReqAgreeDissolutionGameRoom{
+	required bool agree = 1;//是否同意
+}
+
+//RES_AGREE_DISSOLUTION_GAMEROOM = 799979;//返回同意解散房间结果
+message ResAgreeDissolutionGameRoom{
+	required ResponseResult result = 1;//返回结果
+}
+
+
+//RES_NOTIFY_SOMEONE_AGREE_DISSOLUTION_GAMEROOM = 799978;//返回通知某人同意解散房间
+message ResNotifySomeOneAggreeDissolutionGameRoom{
+	required string roomId = 1;//房间id
+	required SdkController controller = 2;//退出房间玩家的信息
+	required PosBrife posBrife = 3;//玩家位置信息
+	required bool agree =4;//是否同意
+}
+
+//RES_NOTIFY_GAMEROOM_DISSOLUTION = 799977;//返回通知游戏房间解散
+message ResNotifyGameRoomDissolution{
+}
+
+
+//RES_NOTIFY_GAMEOVER = 799976;//返回通知游戏结束
+message ResNotifyGameOver{
+}
+
+
+//REQ_GET_ROOM_INFO = 799975;//请求获取游戏房间信息
+message ReqGetRoomInfo{
+}
+
+//RES_GET_ROOM_INFO = 799974;//返回获取游戏房间信息结果
+message ResGetRoomInfo{
+	required ResponseResult result = 1;//返回获取游戏房间信息结果
+	optional RoomInfo roomInfo = 2;//房间信息
+}
+
+//RES_NOTIFY_SOMEONE_GAME_READY = 799973;//返回通知某人游戏准备状态
+message ResNotifySomeOneGameReady{
+	required string roomId = 1;//房间id
+	required SdkController controller = 2;
+	required PosBrife posBrife = 3;//玩家位置信息
+	required bool ready = 4;//准备状态
+}
+
+//REQ_CHANGE_ONLINE_STATUS = 799972;//请求改变在线状态
+message ReqChangeOnlineStatus{
+	required bool online = 1;
+}
+
+//RES_CHANGE_ONLINE_STATUS = 799971;//返回改变在线状态结果
+message ResChangeOnlineStatus{
+	required ResponseResult result = 1;//返回获取游戏房间信息结果
+}
+
+//RES_NOTIFY_SOMEONE_CHANGE_ONLINE_STATUS = 799970;//返回通知某人改变在线状态
+message ResNotifySomeOneChangeOnlineStatus{
+	required string roomId = 1;//房间id
+	required SdkController controller = 2;
+	required PosBrife posBrife = 3;//玩家位置信息
+	required bool online = 4;//在线状态
+}
+
+//RES_NOTIFY_BIG_CALCULATE_PANEL = 799969;//返回通知大结算面板
+message ResNotifyBigCalculatePanel{
+}
+
+
+//REQ_CORRECT_TIMER = 799966;//请求矫正倒计时
+message ReqCorrectTimer{
+}
+
+//RES_CORRECT_TIMER = 799965;//返回矫正倒计时
+message ResCorrectTimer{
+	required ResponseResult result = 1;//返回矫正倒计时结果
+	optional int64 leftDissolutionTimer = 2;//解散房间倒计时
+}
+
+
+
+//REQ_QUICK_CHANGE_ROOM = 799964;//请求快速换桌(金币模式该接口有效)
+message ReqQuickChangeRoom{
+	optional string pipeiParam = 1;//特殊匹配参数由客户端自己维护
+}
+
+//RES_QUICK_CHANGE_ROOM = 799963;//返回快速换桌(金币模式该接口有效)
+message ResQuickChangeRoom{
+	required ResponseResult result = 1;//返回快速换桌结果
+	optional int32 operate = 2;//操作类型,0创建房间 1加入房间
+	optional int32 roomType = 3;//房间类型(这里只会是金币场类型)
+	optional ServerInfoIpsSafeDetail bestServerInfo = 4;//房间所在线路信息 (operate=1时有该参数)
+	optional string roomId = 5;//加入房间号(operate=1时有该参数)
+	repeated ServerInfoIpsSafeDetail logicDetails = 6;//线路信息(当operate=0时有该参数)
+	optional int32 gameId = 7;//游戏id
+	optional int32 timesType = 8;//场次类型
+	required int32 changeServer = 9;//是否需要改变链路(0否1是)
+}
+
+
+//RES_NOTIFY_SOMEONE_CHANGE_ROBOT = 799962;//返回通知某人改变机器人状态
+message ResNotifySomeOneChangeRobot{
+	required int32 isRobot = 1;//1由玩家转变成机器人托管    0由机器人托管转变成玩家
+	required string uniqueId = 2;//变成机器人的玩家的id
+	required int32 pos = 3;//变成机器人的玩家的位置
+}
+
+
+//RES_NOTIFY_CHANGE_TO_OLDROOM = 799961;//返回通知跳转到老的房间(进行加入(快速加入和加入都可能返回该消息))
+message ResNotifyChangeToOldRoom{
+	optional ServerInfoIpsSafeDetail bestServerInfo = 1;//房间所在线路信息
+	optional string roomId = 2;//加入房间号
+	optional int32 gameId = 3;//游戏id
+	optional int32 timesType = 4;//场次类型
+	optional int32 roomType = 5;//房间类型
+}
+//REQ_SIT_DOWN=799960;//坐下
+message ReqSitDown{
+	optional int32 pos=1;	
+}
+//RES_SIT_DOWN=799959;//坐下返回值
+message ResSitDown{
+	required ResponseResult result = 1;//返回结果
+}
+//RES_NOTIFY_SOMEONE_SIT_DOWN=799958;//坐下广播
+message ResNotifySomeOneSitDown{
+	required int32 pos=1;//坐位号
+	required SdkController controller=2;//玩家信息
+}
+//REQ_STAND_UP=799957;//站起
+message ReqStandUp{
+	
+}
+//RES_STAND_UP=799956;//站起返回
+message ResStandUp{
+	required ResponseResult result = 1;//返回结果
+}
+//RES_NOTIFY_SOMEONE_STAND_UP = 799955;//站起来广播
+message ResNotifySomeOneStandUp{
+	required int32 pos=1;
+	required SdkController controller=2;//玩家信息
+}
+
+//RES_NOTIFY_SOMEONE_ENTER_CHARGE = 799954;//返回通知某人进入到充值阶段
+message ResNotifySomeOneEnterCharge{
+	required string uniqueIds = 1;//该玩家的id(多个id以,隔开)
+	required int32 rechargeTime = 2;//充值倒计时
+}
+
+//RES_NOTIFY_ACCOUNTS_CHANGE = 799953;//返回通知账户信息改变
+message ResNotifyAccountsChange{
+	required string uniqueId = 1;//玩家的id
+	repeated PlayerAccount counts = 2;//账户信息
+	optional string extendStr = 3;//额外参数
+	optional int32 charge = 4;//1充值 2其他
+}
+
+//RES_NOTIFY_CHARGE_OVER = 799952;//返回通知充值完成
+message ResNotifyChargeOver{
+	required string uniqueId = 1;
+}
+
+
+//REQ_WATCHER_LIST = 799951;//请求无座位观战者列表
+message ReqWatherList{
+	required int32 length = 1;//请求长度 -1所有 
+	required int32 paixu = 2;//排序类型  -1不排序  1金币排序 2房卡排序
+}
+
+//RES_WATCHER_LIST = 799950;//返回无座位观战者列表
+message ResWatherList{
+	required ResponseResult result = 1;
+	repeated SdkController sdkControllers = 2;
+}
+//REQ_ONCE_MORE = 799948;//请求再来一次
+message ReqOnceMore{
+	
+}
+//RES_ONCE_MORE = 799949;//返回再来一次
+message ResOnceMore{
+	required ResponseResult result = 1;
+	required int32 type=2;//返回类型0创建者，1加入者
+	required string roomId=3;//要加入的房间号
+}
+//RES_ONOTIFY_ONCE_MORE = 799947;通知创建成功
+message ResNotifyOnceMore{
+	required ResponseResult result = 1;
+	required int32 type=2;//返回类型0创建者，1加入者
+	required string roomId=3;//要加入的房间号
+}
+
+//REQ_LOGIC_SERVER_TIME = 799946;//请求逻辑服服务器时间
+message reqLogicServerTime{
+	
+}
+
+
+//RES_LOGIC_SERVER_TIME = 799945;//请求逻辑服服务器时间
+message resLogicServerTime{
+	required ResponseResult result = 1;
+	optional int64 serverTime=2;//服务器时间
+}

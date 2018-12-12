@@ -1,0 +1,257 @@
+package ProtoNet;
+option java_package = "com.version.protobuf.pb";
+import "MsgLogic.proto";
+import "MsgCode.proto";
+
+
+
+enum DouniuCode{
+	//////////////////////////////////DOUNIU_SERVER////////////////////////////////
+	REQ_QIANGZHUANG_8854 = 709998;//请求抢庄
+	RES_QIANGZHUANG_8854 = 709997;//返回抢庄
+	RES_NOTIFY_SOMEONE_QIANGZHUANG_8854 = 709996;//返回通知某人抢庄
+	RES_NOTIFY_GAME_START_8854 = 709995;//返回通知游戏开始
+	RES_NOTIFY_DISPACH_CARD_8854 = 709994;//返回通知发手牌
+	REQ_YAZHU_8854 = 709992;//请求押注
+	RES_YAZHU_8854 = 709991;//返回押注
+	RES_NOTIFY_SOMEONE_YAZHU_8854 = 709990;//返回通知某人押注
+	RES_NOTIFY_DISPACH_LEFT_CARD_8854 = 709989;//返回通知发剩余的牌
+	REQ_LIANG_PAI_8854 = 709988;//请求亮牌
+	RES_LIANG_PAI_8854 = 709987;//返回亮牌
+	RES_NOTIFY_SOMEONE_LIANG_PAI_8854 = 709986;//返回通知某人亮牌
+	REQ_SMALL_CALCULATE_PANEL_8854 = 709985;//请求小结算面板
+	RES_SMALL_CALCULATE_PANEL_8854 = 709984;//返回小结算面板
+	REQ_BIG_CALCULATE_PANEL_8854 = 709983;//请求大结算面板
+	RES_BIG_CALCULATE_PANEL_8854 = 709982;//返回大结算面板
+	REQ_RECOVER_GAMESCEEN_8854 = 709981;//请求恢复场景
+	RES_RECOVER_GAMESCEEN_8854 = 709980;//返回恢复场景
+	RES_TUOGUAN_8854=709979;// 通知该玩家托管状态
+}
+
+
+
+message SmallCalculatePanel_8854{
+	repeated SmallCalController_8854 smallCalControllers = 1;
+	required string bankerUniqueId = 2;//庄家的id
+	required int32 bankerPos = 3;//庄家的位置
+}
+
+
+message SmallCalController_8854{
+	required int32 winScore = 1;//正数赢  负数输
+	required string uniqueId = 2;//该玩家id
+	required int32 pos = 3;//该玩家位置
+	required int32 health = 4;//财富
+}
+
+message BigCalController_8854{
+	required string headImg = 1;//头像
+	required string nick = 2;//昵称
+	required string uniqueId = 3;//ID
+	required int32 head = 4;//头像
+	required int32 winScore = 5;//正数表示赢,负数表示输(总局数据)
+	required int32 niuniuCount =6;//牛牛次数
+	required int32 winCount = 7;//赢次数
+	required int32 loseCount = 8;//输次数
+	required int32 tongshaCount = 9;//通杀次数
+	required int32 tongpeiCount = 10;//通赔次数
+}
+
+message BigCalculatePanel_8854{
+	repeated BigCalController_8854 controllers=1;//玩家数据结算
+	required string roomerId = 2;//房主id
+	required string roomId = 3;//房间号
+}
+
+message QiangzhuangOperate_8854{
+	required int32 pos=1;//所在位置
+	required string uniqueId = 2;//玩家的id
+	required int32 maxFan = 3;//最大番数
+	optional int32 chooseFan = 4;//0不抢
+}
+
+
+
+message YazhuOperate_8854{
+	required int32 pos=1;//所在位置
+	required string uniqueId = 2;//玩家的id
+	required int32 maxFan = 3;//最大番数
+	optional int32 chooseFan = 4;//0不压
+}
+
+message CardInfo_8854{
+	required string cardId = 1;//唯一id
+	required int32 cardColor=2;//FANGKUAI(1, "方块"), MEIHUA(2, "梅花"), HONGTAO(3, "红桃"), HEITAO(4, "黑桃"),XIAOWANG(5,"小王"),DAWANG(6,"大王"),HUAPAI(7,"花牌");
+	required int32 cardNum = 3;//点数 2-14 
+	required bool laizi = 4;//是否为癞子
+}
+
+
+message PosGameInfo_8854{
+	required PosBrife posBrife = 1;//位置信息
+}
+
+message ControllerDispachInfo_8854{
+	required string uniqueId = 1;
+	required int32 pos = 2;
+	repeated CardInfo_8854 cardInfos = 3;//手里的牌数据
+	optional int32 type = 4;//0到10 无牛-牛牛   11 五花牛  12 炸弹牛 13  五小牛
+	optional int32 multiple = 5;//当前牛的倍数
+	optional int32 isTuoGuan=6;//1不显示机器人 2需要显示机器人;
+}
+
+message DouniuGameRoom_8854{
+	required RoomInfo roomInfo=1;//房间基础信息
+	required int32 leftMatchCount = 2;//剩余局数
+	optional string bankerUniqueId = 3;//庄家账号
+	required bool gameing = 4;//游戏是否已经开始
+	repeated PosGameInfo_8854 posGameInfos = 5;//游戏位置信息
+	required int32 model = 6;//模式
+	optional int32 fan = 7;//当前抢庄倍数
+	optional int32 rubCard=8;//当前搓牌选项  1 搓牌 2 不搓牌
+}
+
+//REQ_QIANGZHUANG_8854 = 709998;//请求抢庄
+message ReqQiangzhuang_8854{
+	required int32 fan = 1;//抢庄时倍数选择(不抢fan=1)
+}
+
+
+//RES_QIANGZHUANG_8854 = 709997;//返回抢庄
+message ResQiangzhuang_8854{
+	required ResponseResult result = 1;
+}
+
+//RES_NOTIFY_SOMEONE_QIANGZHUANG_8854 = 709996;//返回通知某人抢庄
+message ResNotifySomeOneQiangzhuang_8854{
+	required string uniqueId=1;
+	required int32 pos = 2;
+	required int32 fan = 3;
+}
+
+message LiangPaiOperate_8854{
+	required string uniqueId=1;
+	required int32 pos = 2;
+	repeated CardInfo_8854 cardInfos = 3;//手里的牌数据
+	optional int32 type = 4;//0到10 无牛-牛牛   11五花银牛   12 五花金牛  13 炸弹牛 14  五小牛
+	optional int32 multiple = 5;//当前牛的倍数
+}
+
+
+//RES_NOTIFY_GAME_START_8854 = 709995;//返回通知游戏开始
+message ResNotifyGameStart_8854{
+	required DouniuGameRoom_8854 douniuGameRoom = 1;
+}
+
+//RES_NOTIFY_DISPACH_CARD_8854 = 709994;//返回通知发手牌(广播)**********
+message ResNotifyDispachCard_8854{
+	repeated ControllerDispachInfo_8854 recoverControllerInfos = 1;//玩家数据
+	required int32 operateType = 2;//0抢庄 1 押注 2 抢庄了之后押注
+	
+	optional int32 fanMax = 3;//最大能够抢庄倍数
+	optional int32 qiangzhuangTimer = 4;//操作倒计时
+	
+	optional int32 maxYazhuFan = 5;//最大能够押注倍数
+	optional int32 yazhuTimer = 6;//操作倒计时
+	optional string bankerId = 7;//庄家的id
+	optional int32 bankerPos = 8;//庄家的位置
+	optional string canyu = 9;//参与抢庄的人的位置以,隔开
+}
+
+
+//REQ_YAZHU_8854 = 709992;//请求押注
+message ReqYazhu_8854{
+	required int32 yazhuFan = 1;
+}
+
+
+//RES_YAZHU_8854 = 709991;//返回押注
+message ResYazhu_8854{
+	required ResponseResult result = 1;
+}
+
+
+//RES_NOTIFY_SOMEONE_YAZHU_8854 = 709990;//返回通知某人押注
+message ResNotifySomeOneYazhu_8854{
+	required string uniqueId=1;
+	required int32 pos = 2;
+	required int32 yazhuFan = 3;
+}
+
+//RES_NOTIFY_DISPACH_LEFT_CARD_8854 = 709989;//返回通知发剩余的牌(发给自己)
+message ResNotifyDispachLeftCard_8854{
+	repeated CardInfo_8854 cardInfos = 1;//手里的牌数据
+	required int32 type = 2;//0到10 无牛-牛牛   11 五花牛  12 炸弹牛 13  五小牛
+	required int32 multiple = 3;//当前牛的倍数
+	required int32 timer = 4;//亮牌的timer
+}
+
+//REQ_LIANG_PAI_8854 = 709988;//请求亮牌
+message ReqLiangPai_8854{
+}
+
+//RES_LIANG_PAI_8854 = 709987;//返回亮牌
+message ResLiangPai_8854{
+	required ResponseResult result = 1;
+	repeated CardInfo_8854 cardInfos = 2;//手里的牌数据
+	optional int32 type = 3;//0到10 无牛-牛牛   11 五花牛  12 炸弹牛 13  五小牛
+	optional int32 multiple = 4;//当前牛的倍数
+}
+
+//RES_NOTIFY_SOMEONE_LIANG_PAI_8854 = 709986;//返回通知某人亮牌
+message ResNotifySomeOneLiangPai_8854{
+	required string uniqueId = 1;//亮牌玩家的id
+	repeated CardInfo_8854 cardInfos = 2;//手里的牌数据
+	required int32 type = 3;//0到10 无牛-牛牛   11 五花牛  12 炸弹牛 13  五小牛
+	required int32 multiple = 4;//当前牛的倍数
+	required int32 pos = 5;//当前亮牌玩家的位置
+}
+
+//REQ_SMALL_CALCULATE_PANEL_8854 = 709985;//请求小结算面板
+message ReqSmallCalculatePanel_8854{
+	required string roomId = 1;//房间号
+	required int32 times = 2;//场次
+}
+
+//RES_SMALL_CALCULATE_PANEL_8854 = 709984;//返回小结算面板
+message ResSmallCalculatePanel_8854{
+	required ResponseResult result = 1;//返回小结算面板结果
+	optional SmallCalculatePanel_8854 smallCalculatePanel = 2;//结算面板
+}
+
+//REQ_BIG_CALCULATE_PANEL_8854 = 709983;//请求大结算面板
+message ReqBigCalculatePanel_8854{
+	required string roomId = 1;//房间号
+	required bool containSmall = 2;//是否包含所有小结算数据
+}
+
+//RES_BIG_CALCULATE_PANEL_8854 = 709982;//返回大结算面板
+message ResBigCalculatePanel_8854{
+	required ResponseResult result = 1;//返回出牌结果
+	optional BigCalculatePanel_8854 bigCalculatePanel = 2;//结算面板
+}
+
+
+//REQ_RECOVER_GAMESCEEN_8854 = 709981;//请求恢复场景
+message ReqRecoverGameSceen_8854{
+}
+
+//RES_RECOVER_GAMESCEEN_8854 = 709980;//返回恢复场景
+message ResRecoverGameSceen_8854{
+	required ResponseResult result = 1;//返回获取游戏房间信息结果
+	optional int32 gameId = 2;//当前所在游戏id
+	optional int32 roomStatus = 3;//房间状态0 准备状态 4抢庄 5押注 6亮牌
+	optional RoomInfo roomInfo=4;//房间基础信息(准备状态返回当前房间基础信息)
+	optional DouniuGameRoom_8854 douniuGameRoom = 5;//当前斗牛房间信息
+	repeated QiangzhuangOperate_8854 qiangzhaungOperates = 6;//抢庄数据
+	repeated YazhuOperate_8854 yazhuOperates = 7;//押注数据
+	repeated LiangPaiOperate_8854 liangPaiOperates = 8;//亮牌数据
+	repeated ControllerDispachInfo_8854 recoverControllerInfos = 9;//玩家数据
+	optional int32 selfQiangzhuangMaxFan = 10;//自己的最大抢庄倍数
+	optional int32 selfYazhuMaxFan = 11;//自己的最大下注倍数
+}
+ //RES_TUOGUAN_8854=709979 通知该玩家托管状态
+ message ResTuoGuan_8854{
+ optional int32  isTuoGuan=1;//该玩家托管状态 1 不显示 机器人  2 显示机器人
+ optional string uniqueId=2;//该玩家id
+ }

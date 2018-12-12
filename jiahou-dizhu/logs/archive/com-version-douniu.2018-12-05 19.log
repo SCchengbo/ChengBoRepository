@@ -1,0 +1,5552 @@
+2018-12-05 19:00:05.579 [nioEventLoopGroup-5-4] DEBUG com.version.common.util.LoggerUtil:22 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x0860abfe, L:/192.168.31.215:34700 - R:/192.168.31.50:53211]
+CODE:999998[999998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+now: 1544007605579
+heartbeartTime: 5000
+
+2018-12-05 19:00:05.625 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x0860abfe, L:/192.168.31.215:34700 - R:/192.168.31.50:53211]]
+CODE:799999[799999]
+account: "116981"
+ticket: "DGLXTJJIKSGPFCW4RRVBX6XOOS6LQHIPKXWRAPFNKTEUVAWHZTMA4LYKWPCJBQXH6R3TQMG3IJZ4BYOA3DFY6F2BTF55BSTQUIG25EO7OIKAHAXMXMRA"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:00:05.656 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x3cfc5671, L:/192.168.31.215:34700 - R:/192.168.31.50:53098]
+CODE:999994[999994]
+
+-----------------------------------------------------------------
+
+
+
+
+
+
+2018-12-05 19:00:05.663 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x0860abfe, L:/192.168.31.215:34700 - R:/192.168.31.50:53211]
+CODE:799998[799998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\347\231\273\351\231\206\346\210\220\345\212\237!"
+}
+
+2018-12-05 19:00:05.692 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x0860abfe, L:/192.168.31.215:34700 - R:/192.168.31.50:53211]]
+CODE:799994[799994]
+roomId: "8973610"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:00:05.696 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x0860abfe, L:/192.168.31.215:34700 - R:/192.168.31.50:53211]
+CODE:799971[799971]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\257\267\346\261\202\346\210\220\345\212\237"
+}
+
+2018-12-05 19:00:05.697 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x0860abfe, L:/192.168.31.215:34700 - R:/192.168.31.50:53211]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:00:05.697 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x8414b7f9, L:/192.168.31.215:34700 - R:/192.168.31.50:53095]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:00:05.698 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x318a5236, L:/192.168.31.215:34700 - R:/192.168.31.50:53096]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:00:05.698 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x0860abfe, L:/192.168.31.215:34700 - R:/192.168.31.50:53211]
+CODE:799993[799993]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\345\212\240\345\205\245\346\210\277\351\227\264\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 10
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+readyTimer: 30000
+
+2018-12-05 19:00:06.311 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x0860abfe, L:/192.168.31.215:34700 - R:/192.168.31.50:53211]]
+CODE:799975[799975]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:00:06.311 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x0860abfe, L:/192.168.31.215:34700 - R:/192.168.31.50:53211]
+CODE:799974[799974]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\216\267\345\217\226\346\210\277\351\227\264\344\277\241\346\201\257\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 10
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+
+2018-12-05 19:01:58.798 [nioEventLoopGroup-5-5] DEBUG com.version.common.util.LoggerUtil:22 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xaffb7ac2, L:/192.168.31.215:34700 - R:/192.168.31.50:53258]
+CODE:999998[999998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+now: 1544007718798
+heartbeartTime: 5000
+
+2018-12-05 19:01:58.856 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xaffb7ac2, L:/192.168.31.215:34700 - R:/192.168.31.50:53258]]
+CODE:799999[799999]
+account: "116981"
+ticket: "DGLXTJJIKSGPFCW4RRVBX6XOOS6LQHIPKXWRAPFNKTEUVAWHZTMAFGC5FGYRXRDMCLQIURURSMBHO6ZULMRNJTG2TPZXUHX3ZZQM3TFZDV6R2P4F7UYQ"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:01:58.876 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x0860abfe, L:/192.168.31.215:34700 - R:/192.168.31.50:53211]
+CODE:999994[999994]
+
+-----------------------------------------------------------------
+
+
+
+
+
+
+2018-12-05 19:01:58.884 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xaffb7ac2, L:/192.168.31.215:34700 - R:/192.168.31.50:53258]
+CODE:799998[799998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\347\231\273\351\231\206\346\210\220\345\212\237!"
+}
+
+2018-12-05 19:01:58.906 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xaffb7ac2, L:/192.168.31.215:34700 - R:/192.168.31.50:53258]]
+CODE:799994[799994]
+roomId: "8973610"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:01:58.909 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xaffb7ac2, L:/192.168.31.215:34700 - R:/192.168.31.50:53258]
+CODE:799971[799971]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\257\267\346\261\202\346\210\220\345\212\237"
+}
+
+2018-12-05 19:01:58.909 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xaffb7ac2, L:/192.168.31.215:34700 - R:/192.168.31.50:53258]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:01:58.909 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x8414b7f9, L:/192.168.31.215:34700 - R:/192.168.31.50:53095]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:01:58.909 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x318a5236, L:/192.168.31.215:34700 - R:/192.168.31.50:53096]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:01:58.909 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xaffb7ac2, L:/192.168.31.215:34700 - R:/192.168.31.50:53258]
+CODE:799993[799993]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\345\212\240\345\205\245\346\210\277\351\227\264\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 10
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+readyTimer: 30000
+
+2018-12-05 19:01:59.604 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xaffb7ac2, L:/192.168.31.215:34700 - R:/192.168.31.50:53258]]
+CODE:799975[799975]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:01:59.604 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xaffb7ac2, L:/192.168.31.215:34700 - R:/192.168.31.50:53258]
+CODE:799974[799974]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\216\267\345\217\226\346\210\277\351\227\264\344\277\241\346\201\257\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 10
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+
+2018-12-05 19:02:23.395 [nioEventLoopGroup-5-6] DEBUG com.version.common.util.LoggerUtil:22 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xc620070e, L:/192.168.31.215:34700 - R:/192.168.31.50:53271]
+CODE:999998[999998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+now: 1544007743395
+heartbeartTime: 5000
+
+2018-12-05 19:02:23.457 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xc620070e, L:/192.168.31.215:34700 - R:/192.168.31.50:53271]]
+CODE:799999[799999]
+account: "116981"
+ticket: "DGLXTJJIKSGPFCW4RRVBX6XOOS6LQHIPKXWRAPFNKTEUVAWHZTMNJXSKWL4NB474DBNWZ2RGRENWZJL3FYEVCE2HIISZANAOJGX3K6LRM6LSMDZXJUPA"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:02:23.476 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xaffb7ac2, L:/192.168.31.215:34700 - R:/192.168.31.50:53258]
+CODE:999994[999994]
+
+-----------------------------------------------------------------
+
+
+
+
+
+
+2018-12-05 19:02:23.483 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xc620070e, L:/192.168.31.215:34700 - R:/192.168.31.50:53271]
+CODE:799998[799998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\347\231\273\351\231\206\346\210\220\345\212\237!"
+}
+
+2018-12-05 19:02:23.506 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xc620070e, L:/192.168.31.215:34700 - R:/192.168.31.50:53271]]
+CODE:799994[799994]
+roomId: "8973610"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:02:23.510 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xc620070e, L:/192.168.31.215:34700 - R:/192.168.31.50:53271]
+CODE:799971[799971]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\257\267\346\261\202\346\210\220\345\212\237"
+}
+
+2018-12-05 19:02:23.510 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xc620070e, L:/192.168.31.215:34700 - R:/192.168.31.50:53271]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:02:23.510 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x8414b7f9, L:/192.168.31.215:34700 - R:/192.168.31.50:53095]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:02:23.510 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x318a5236, L:/192.168.31.215:34700 - R:/192.168.31.50:53096]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:02:23.510 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xc620070e, L:/192.168.31.215:34700 - R:/192.168.31.50:53271]
+CODE:799993[799993]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\345\212\240\345\205\245\346\210\277\351\227\264\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 10
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+readyTimer: 30000
+
+2018-12-05 19:02:24.234 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xc620070e, L:/192.168.31.215:34700 - R:/192.168.31.50:53271]]
+CODE:799975[799975]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:02:24.234 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xc620070e, L:/192.168.31.215:34700 - R:/192.168.31.50:53271]
+CODE:799974[799974]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\216\267\345\217\226\346\210\277\351\227\264\344\277\241\346\201\257\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 10
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+
+2018-12-05 19:02:45.657 [nioEventLoopGroup-5-7] DEBUG com.version.common.util.LoggerUtil:22 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xf46e7599, L:/192.168.31.215:34700 - R:/192.168.31.50:53284]
+CODE:999998[999998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+now: 1544007765657
+heartbeartTime: 5000
+
+2018-12-05 19:02:45.707 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xf46e7599, L:/192.168.31.215:34700 - R:/192.168.31.50:53284]]
+CODE:799999[799999]
+account: "116981"
+ticket: "DGLXTJJIKSGPFCW4RRVBX6XOOS6LQHIPKXWRAPFNKTEUVAWHZTMAQSUM6Q47L2QTBIHIZQDXA743YTGHKMMRYQ23DUCWGOIARRNQTUN2QPBPL3BADZQQ"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:02:45.731 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xf46e7599, L:/192.168.31.215:34700 - R:/192.168.31.50:53284]
+CODE:799998[799998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\347\231\273\351\231\206\346\210\220\345\212\237!"
+}
+
+2018-12-05 19:02:45.755 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xf46e7599, L:/192.168.31.215:34700 - R:/192.168.31.50:53284]]
+CODE:799994[799994]
+roomId: "8973610"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:02:45.759 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xf46e7599, L:/192.168.31.215:34700 - R:/192.168.31.50:53284]
+CODE:799971[799971]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\257\267\346\261\202\346\210\220\345\212\237"
+}
+
+2018-12-05 19:02:45.759 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xf46e7599, L:/192.168.31.215:34700 - R:/192.168.31.50:53284]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:02:45.759 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x8414b7f9, L:/192.168.31.215:34700 ! R:/192.168.31.50:53095]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:02:45.759 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x318a5236, L:/192.168.31.215:34700 ! R:/192.168.31.50:53096]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:02:45.759 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xf46e7599, L:/192.168.31.215:34700 - R:/192.168.31.50:53284]
+CODE:799993[799993]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\345\212\240\345\205\245\346\210\277\351\227\264\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 10
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+readyTimer: 30000
+
+2018-12-05 19:02:46.328 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xf46e7599, L:/192.168.31.215:34700 - R:/192.168.31.50:53284]]
+CODE:799975[799975]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:02:46.329 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xf46e7599, L:/192.168.31.215:34700 - R:/192.168.31.50:53284]
+CODE:799974[799974]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\216\267\345\217\226\346\210\277\351\227\264\344\277\241\346\201\257\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 10
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+
+2018-12-05 19:03:33.558 [nioEventLoopGroup-5-8] DEBUG com.version.common.util.LoggerUtil:22 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x3d4bb71e, L:/192.168.31.215:34700 - R:/192.168.31.50:53309]
+CODE:999998[999998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+now: 1544007813558
+heartbeartTime: 5000
+
+2018-12-05 19:03:33.605 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x3d4bb71e, L:/192.168.31.215:34700 - R:/192.168.31.50:53309]]
+CODE:799999[799999]
+account: "116981"
+ticket: "DGLXTJJIKSGPFCW4RRVBX6XOOS6LQHIPKXWRAPFNKTEUVAWHZTMHE5DDCM43XHZVSUCCKEMIIXHOS7UCS2GQIHZZABZYLQUIV7EAUARH7TIFSTBKSIDA"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:03:33.628 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xf46e7599, L:/192.168.31.215:34700 - R:/192.168.31.50:53284]
+CODE:999994[999994]
+
+-----------------------------------------------------------------
+
+
+
+
+
+
+2018-12-05 19:03:33.634 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x3d4bb71e, L:/192.168.31.215:34700 - R:/192.168.31.50:53309]
+CODE:799998[799998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\347\231\273\351\231\206\346\210\220\345\212\237!"
+}
+
+2018-12-05 19:03:33.655 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x3d4bb71e, L:/192.168.31.215:34700 - R:/192.168.31.50:53309]]
+CODE:799994[799994]
+roomId: "8973610"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:03:33.659 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x3d4bb71e, L:/192.168.31.215:34700 - R:/192.168.31.50:53309]
+CODE:799971[799971]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\257\267\346\261\202\346\210\220\345\212\237"
+}
+
+2018-12-05 19:03:33.659 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x3d4bb71e, L:/192.168.31.215:34700 - R:/192.168.31.50:53309]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:03:33.659 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x8414b7f9, L:/192.168.31.215:34700 ! R:/192.168.31.50:53095]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:03:33.659 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x318a5236, L:/192.168.31.215:34700 ! R:/192.168.31.50:53096]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:03:33.659 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x3d4bb71e, L:/192.168.31.215:34700 - R:/192.168.31.50:53309]
+CODE:799993[799993]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\345\212\240\345\205\245\346\210\277\351\227\264\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 10
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+readyTimer: 30000
+
+2018-12-05 19:03:34.217 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x3d4bb71e, L:/192.168.31.215:34700 - R:/192.168.31.50:53309]]
+CODE:799975[799975]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:03:34.217 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x3d4bb71e, L:/192.168.31.215:34700 - R:/192.168.31.50:53309]
+CODE:799974[799974]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\216\267\345\217\226\346\210\277\351\227\264\344\277\241\346\201\257\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 10
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+
+2018-12-05 19:03:34.330 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x3d4bb71e, L:/192.168.31.215:34700 - R:/192.168.31.50:53309]]
+CODE:269987[269987]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:03:34.331 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x3d4bb71e, L:/192.168.31.215:34700 - R:/192.168.31.50:53309]
+CODE:269986[269986]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\216\267\345\217\226\346\225\260\346\215\256\346\210\220\345\212\237"
+}
+gameId: 8884
+roomStatus: 10
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 10
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+currentCtrlPos {
+  currentCtrlPos: 3
+  ctrlTime: 5
+  checkOutCard: 10
+}
+allMultiple: 1
+playersMsg {
+  lastCardNum: 17
+  allScore: 0
+  uId: "116981"
+}
+playersMsg {
+  lastCardNum: 17
+  allScore: 0
+  uId: "100012"
+}
+playersMsg {
+  lastCardNum: 17
+  allScore: 0
+  uId: "100014"
+}
+selfCards {
+  cardId: 516
+  cardNum: 16
+  cardColor: 5
+}
+selfCards {
+  cardId: 302
+  cardNum: 2
+  cardColor: 3
+}
+selfCards {
+  cardId: 405
+  cardNum: 5
+  cardColor: 4
+}
+selfCards {
+  cardId: 407
+  cardNum: 7
+  cardColor: 4
+}
+selfCards {
+  cardId: 403
+  cardNum: 3
+  cardColor: 4
+}
+selfCards {
+  cardId: 214
+  cardNum: 14
+  cardColor: 2
+}
+selfCards {
+  cardId: 207
+  cardNum: 7
+  cardColor: 2
+}
+selfCards {
+  cardId: 311
+  cardNum: 11
+  cardColor: 3
+}
+selfCards {
+  cardId: 303
+  cardNum: 3
+  cardColor: 3
+}
+selfCards {
+  cardId: 213
+  cardNum: 13
+  cardColor: 2
+}
+selfCards {
+  cardId: 113
+  cardNum: 13
+  cardColor: 1
+}
+selfCards {
+  cardId: 110
+  cardNum: 10
+  cardColor: 1
+}
+selfCards {
+  cardId: 305
+  cardNum: 5
+  cardColor: 3
+}
+selfCards {
+  cardId: 209
+  cardNum: 9
+  cardColor: 2
+}
+selfCards {
+  cardId: 304
+  cardNum: 4
+  cardColor: 3
+}
+selfCards {
+  cardId: 307
+  cardNum: 7
+  cardColor: 3
+}
+selfCards {
+  cardId: 206
+  cardNum: 6
+  cardColor: 2
+}
+
+2018-12-05 19:03:47.542 [nioEventLoopGroup-5-9] DEBUG com.version.common.util.LoggerUtil:22 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x80ef8972, L:/192.168.31.215:34700 - R:/192.168.31.50:53323]
+CODE:999998[999998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+now: 1544007827542
+heartbeartTime: 5000
+
+2018-12-05 19:03:47.589 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x80ef8972, L:/192.168.31.215:34700 - R:/192.168.31.50:53323]]
+CODE:799999[799999]
+account: "116981"
+ticket: "DGLXTJJIKSGPFCW4RRVBX6XOOS6LQHIPKXWRAPFNKTEUVAWHZTMDO3PIFIA7QRYJ27IU73N7JCSDUJGG5LPP4S7V76VOMJ3G4Y23QUGXNI4VPQWI2PFQ"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:03:47.614 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x80ef8972, L:/192.168.31.215:34700 - R:/192.168.31.50:53323]
+CODE:799998[799998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\347\231\273\351\231\206\346\210\220\345\212\237!"
+}
+
+2018-12-05 19:03:47.639 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x80ef8972, L:/192.168.31.215:34700 - R:/192.168.31.50:53323]]
+CODE:799994[799994]
+roomId: "8973610"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:03:47.642 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x80ef8972, L:/192.168.31.215:34700 - R:/192.168.31.50:53323]
+CODE:799971[799971]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\257\267\346\261\202\346\210\220\345\212\237"
+}
+
+2018-12-05 19:03:47.642 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x80ef8972, L:/192.168.31.215:34700 - R:/192.168.31.50:53323]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:03:47.642 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x8414b7f9, L:/192.168.31.215:34700 ! R:/192.168.31.50:53095]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:03:47.643 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x318a5236, L:/192.168.31.215:34700 ! R:/192.168.31.50:53096]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:03:47.643 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x80ef8972, L:/192.168.31.215:34700 - R:/192.168.31.50:53323]
+CODE:799993[799993]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\345\212\240\345\205\245\346\210\277\351\227\264\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 10
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+readyTimer: 30000
+
+2018-12-05 19:03:48.206 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x80ef8972, L:/192.168.31.215:34700 - R:/192.168.31.50:53323]]
+CODE:799975[799975]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:03:48.206 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x80ef8972, L:/192.168.31.215:34700 - R:/192.168.31.50:53323]
+CODE:799974[799974]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\216\267\345\217\226\346\210\277\351\227\264\344\277\241\346\201\257\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 10
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+
+2018-12-05 19:03:48.331 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x80ef8972, L:/192.168.31.215:34700 - R:/192.168.31.50:53323]]
+CODE:269987[269987]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:03:48.331 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x80ef8972, L:/192.168.31.215:34700 - R:/192.168.31.50:53323]
+CODE:269986[269986]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\216\267\345\217\226\346\225\260\346\215\256\346\210\220\345\212\237"
+}
+gameId: 8884
+roomStatus: 10
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 10
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+currentCtrlPos {
+  currentCtrlPos: 3
+  ctrlTime: 5
+  checkOutCard: 10
+}
+allMultiple: 1
+playersMsg {
+  lastCardNum: 17
+  allScore: 0
+  uId: "116981"
+}
+playersMsg {
+  lastCardNum: 17
+  allScore: 0
+  uId: "100012"
+}
+playersMsg {
+  lastCardNum: 17
+  allScore: 0
+  uId: "100014"
+}
+selfCards {
+  cardId: 516
+  cardNum: 16
+  cardColor: 5
+}
+selfCards {
+  cardId: 302
+  cardNum: 2
+  cardColor: 3
+}
+selfCards {
+  cardId: 405
+  cardNum: 5
+  cardColor: 4
+}
+selfCards {
+  cardId: 407
+  cardNum: 7
+  cardColor: 4
+}
+selfCards {
+  cardId: 403
+  cardNum: 3
+  cardColor: 4
+}
+selfCards {
+  cardId: 214
+  cardNum: 14
+  cardColor: 2
+}
+selfCards {
+  cardId: 207
+  cardNum: 7
+  cardColor: 2
+}
+selfCards {
+  cardId: 311
+  cardNum: 11
+  cardColor: 3
+}
+selfCards {
+  cardId: 303
+  cardNum: 3
+  cardColor: 3
+}
+selfCards {
+  cardId: 213
+  cardNum: 13
+  cardColor: 2
+}
+selfCards {
+  cardId: 113
+  cardNum: 13
+  cardColor: 1
+}
+selfCards {
+  cardId: 110
+  cardNum: 10
+  cardColor: 1
+}
+selfCards {
+  cardId: 305
+  cardNum: 5
+  cardColor: 3
+}
+selfCards {
+  cardId: 209
+  cardNum: 9
+  cardColor: 2
+}
+selfCards {
+  cardId: 304
+  cardNum: 4
+  cardColor: 3
+}
+selfCards {
+  cardId: 307
+  cardNum: 7
+  cardColor: 3
+}
+selfCards {
+  cardId: 206
+  cardNum: 6
+  cardColor: 2
+}
+
+2018-12-05 19:04:57.964 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x80ef8972, L:/192.168.31.215:34700 - R:/192.168.31.50:53323]]
+CODE:269996[269996]
+multiple: 0
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:04:57.964 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x80ef8972, L:/192.168.31.215:34700 - R:/192.168.31.50:53323]
+CODE:269995[269995]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+}
+
+2018-12-05 19:04:57.964 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x80ef8972, L:/192.168.31.215:34700 - R:/192.168.31.50:53323]
+CODE:269994[269994]
+
+-----------------------------------------------------------------
+
+
+
+
+
+multiple: 0
+uId: "116981"
+
+2018-12-05 19:04:57.965 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x8414b7f9, L:/192.168.31.215:34700 ! R:/192.168.31.50:53095]
+CODE:269994[269994]
+
+-----------------------------------------------------------------
+
+
+
+
+
+multiple: 0
+uId: "116981"
+
+2018-12-05 19:04:57.965 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x318a5236, L:/192.168.31.215:34700 ! R:/192.168.31.50:53096]
+CODE:269994[269994]
+
+-----------------------------------------------------------------
+
+
+
+
+
+multiple: 0
+uId: "116981"
+
+2018-12-05 19:04:57.965 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x80ef8972, L:/192.168.31.215:34700 - R:/192.168.31.50:53323]
+CODE:269993[269993]
+
+-----------------------------------------------------------------
+
+
+
+
+
+landLordId: "116981"
+card {
+  cardId: 410
+  cardNum: 10
+  cardColor: 4
+}
+card {
+  cardId: 102
+  cardNum: 2
+  cardColor: 1
+}
+card {
+  cardId: 112
+  cardNum: 12
+  cardColor: 1
+}
+
+2018-12-05 19:04:57.965 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x8414b7f9, L:/192.168.31.215:34700 ! R:/192.168.31.50:53095]
+CODE:269993[269993]
+
+-----------------------------------------------------------------
+
+
+
+
+
+landLordId: "116981"
+card {
+  cardId: 410
+  cardNum: 10
+  cardColor: 4
+}
+card {
+  cardId: 102
+  cardNum: 2
+  cardColor: 1
+}
+card {
+  cardId: 112
+  cardNum: 12
+  cardColor: 1
+}
+
+2018-12-05 19:04:57.965 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x318a5236, L:/192.168.31.215:34700 ! R:/192.168.31.50:53096]
+CODE:269993[269993]
+
+-----------------------------------------------------------------
+
+
+
+
+
+landLordId: "116981"
+card {
+  cardId: 410
+  cardNum: 10
+  cardColor: 4
+}
+card {
+  cardId: 102
+  cardNum: 2
+  cardColor: 1
+}
+card {
+  cardId: 112
+  cardNum: 12
+  cardColor: 1
+}
+
+2018-12-05 19:04:57.965 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x80ef8972, L:/192.168.31.215:34700 - R:/192.168.31.50:53323]
+CODE:269997[269997]
+
+-----------------------------------------------------------------
+
+
+
+
+
+currentCtrlPos: 3
+ctrlTime: 5
+checkOutCard: 2
+
+2018-12-05 19:04:57.965 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x8414b7f9, L:/192.168.31.215:34700 ! R:/192.168.31.50:53095]
+CODE:269997[269997]
+
+-----------------------------------------------------------------
+
+
+
+
+
+currentCtrlPos: 3
+ctrlTime: 5
+checkOutCard: 2
+
+2018-12-05 19:04:57.965 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x318a5236, L:/192.168.31.215:34700 ! R:/192.168.31.50:53096]
+CODE:269997[269997]
+
+-----------------------------------------------------------------
+
+
+
+
+
+currentCtrlPos: 3
+ctrlTime: 5
+checkOutCard: 2
+
+2018-12-05 19:04:57.965 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 当前的操作位置:3
+2018-12-05 19:12:31.889 [nioEventLoopGroup-5-10] DEBUG com.version.common.util.LoggerUtil:22 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:999998[999998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+now: 1544008351889
+heartbeartTime: 5000
+
+2018-12-05 19:12:31.946 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]]
+CODE:799999[799999]
+account: "116981"
+ticket: "DGLXTJJIKSGPFCW4RRVBX6XOOS6LQHIPKXWRAPFNKTEUVAWHZTMBJOZGRLKVCJLZMN4LSG3Z3VJ4APVEBP3IHPWE63FXUSKKSNVC7BOJV3AEVJ4MNY3Q"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:12:31.966 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x80ef8972, L:/192.168.31.215:34700 - R:/192.168.31.50:53323]
+CODE:999994[999994]
+
+-----------------------------------------------------------------
+
+
+
+
+
+
+2018-12-05 19:12:31.979 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:799998[799998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\347\231\273\351\231\206\346\210\220\345\212\237!"
+}
+
+2018-12-05 19:12:31.996 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]]
+CODE:799994[799994]
+roomId: "8973610"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:12:32.000 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:799971[799971]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\257\267\346\261\202\346\210\220\345\212\237"
+}
+
+2018-12-05 19:12:32.000 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:12:32.001 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x8414b7f9, L:/192.168.31.215:34700 ! R:/192.168.31.50:53095]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:12:32.001 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x318a5236, L:/192.168.31.215:34700 ! R:/192.168.31.50:53096]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 3
+  controllerUniqueId: "116981"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:12:32.001 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:799993[799993]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\345\212\240\345\205\245\346\210\277\351\227\264\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 11
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+readyTimer: 30000
+
+2018-12-05 19:12:32.573 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]]
+CODE:799975[799975]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:12:32.573 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:799974[799974]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\216\267\345\217\226\346\210\277\351\227\264\344\277\241\346\201\257\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 11
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+
+2018-12-05 19:12:32.686 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]]
+CODE:269987[269987]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:12:32.687 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:269986[269986]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\216\267\345\217\226\346\225\260\346\215\256\346\210\220\345\212\237"
+}
+gameId: 8884
+roomStatus: 11
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 11
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+currentCtrlPos {
+  currentCtrlPos: 3
+  ctrlTime: 5
+  checkOutCard: 11
+}
+landlordId: "116981"
+allMultiple: 1
+playersMsg {
+  lastCardNum: 20
+  allScore: 0
+  uId: "116981"
+}
+playersMsg {
+  lastCardNum: 17
+  allScore: 0
+  uId: "100012"
+}
+playersMsg {
+  lastCardNum: 17
+  allScore: 0
+  uId: "100014"
+}
+selfCards {
+  cardId: 516
+  cardNum: 16
+  cardColor: 5
+}
+selfCards {
+  cardId: 302
+  cardNum: 2
+  cardColor: 3
+}
+selfCards {
+  cardId: 405
+  cardNum: 5
+  cardColor: 4
+}
+selfCards {
+  cardId: 407
+  cardNum: 7
+  cardColor: 4
+}
+selfCards {
+  cardId: 403
+  cardNum: 3
+  cardColor: 4
+}
+selfCards {
+  cardId: 214
+  cardNum: 14
+  cardColor: 2
+}
+selfCards {
+  cardId: 207
+  cardNum: 7
+  cardColor: 2
+}
+selfCards {
+  cardId: 311
+  cardNum: 11
+  cardColor: 3
+}
+selfCards {
+  cardId: 303
+  cardNum: 3
+  cardColor: 3
+}
+selfCards {
+  cardId: 213
+  cardNum: 13
+  cardColor: 2
+}
+selfCards {
+  cardId: 113
+  cardNum: 13
+  cardColor: 1
+}
+selfCards {
+  cardId: 110
+  cardNum: 10
+  cardColor: 1
+}
+selfCards {
+  cardId: 305
+  cardNum: 5
+  cardColor: 3
+}
+selfCards {
+  cardId: 209
+  cardNum: 9
+  cardColor: 2
+}
+selfCards {
+  cardId: 304
+  cardNum: 4
+  cardColor: 3
+}
+selfCards {
+  cardId: 307
+  cardNum: 7
+  cardColor: 3
+}
+selfCards {
+  cardId: 206
+  cardNum: 6
+  cardColor: 2
+}
+selfCards {
+  cardId: 410
+  cardNum: 10
+  cardColor: 4
+}
+selfCards {
+  cardId: 102
+  cardNum: 2
+  cardColor: 1
+}
+selfCards {
+  cardId: 112
+  cardNum: 12
+  cardColor: 1
+}
+lastCard {
+  cardId: 410
+  cardNum: 10
+  cardColor: 4
+}
+lastCard {
+  cardId: 102
+  cardNum: 2
+  cardColor: 1
+}
+lastCard {
+  cardId: 112
+  cardNum: 12
+  cardColor: 1
+}
+
+2018-12-05 19:13:08.464 [nioEventLoopGroup-5-11] DEBUG com.version.common.util.LoggerUtil:22 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:999998[999998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+now: 1544008388464
+heartbeartTime: 5000
+
+2018-12-05 19:13:08.513 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]]
+CODE:799999[799999]
+account: "100012"
+ticket: "WJAY2BS5I5I4FNQXPXDKP6LHZP7EQUASGTGQYP5WEL5UOPF4SHITEBCBOXZGKIJOEFQH23ORMDP7QOLXA4CMOIWA52ZQ6QNZXWCPZSMF4U3ZRWJ2NQ5Q"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:13:08.540 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:799998[799998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\347\231\273\351\231\206\346\210\220\345\212\237!"
+}
+
+2018-12-05 19:13:08.563 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]]
+CODE:799994[799994]
+roomId: "8973610"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:13:08.566 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:799971[799971]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\257\267\346\261\202\346\210\220\345\212\237"
+}
+
+2018-12-05 19:13:08.566 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "100012"
+  nickName: "15196608711"
+  headImg: ""
+  ip: ""
+  health: 100000.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 1
+  controllerUniqueId: "100012"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:13:08.567 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "100012"
+  nickName: "15196608711"
+  headImg: ""
+  ip: ""
+  health: 100000.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 1
+  controllerUniqueId: "100012"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:13:08.567 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x318a5236, L:/192.168.31.215:34700 ! R:/192.168.31.50:53096]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "100012"
+  nickName: "15196608711"
+  headImg: ""
+  ip: ""
+  health: 100000.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 1
+  controllerUniqueId: "100012"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:13:08.567 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:799993[799993]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\345\212\240\345\205\245\346\210\277\351\227\264\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 11
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+readyTimer: 30000
+
+2018-12-05 19:13:09.142 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]]
+CODE:799975[799975]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:13:09.143 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:799974[799974]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\216\267\345\217\226\346\210\277\351\227\264\344\277\241\346\201\257\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 11
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+
+2018-12-05 19:13:09.257 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]]
+CODE:269987[269987]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:13:09.258 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:269986[269986]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\216\267\345\217\226\346\225\260\346\215\256\346\210\220\345\212\237"
+}
+gameId: 8884
+roomStatus: 11
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 11
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+currentCtrlPos {
+  currentCtrlPos: 3
+  ctrlTime: 5
+  checkOutCard: 11
+}
+landlordId: "116981"
+allMultiple: 1
+playersMsg {
+  lastCardNum: 20
+  allScore: 0
+  uId: "116981"
+}
+playersMsg {
+  lastCardNum: 17
+  allScore: 0
+  uId: "100012"
+}
+playersMsg {
+  lastCardNum: 17
+  allScore: 0
+  uId: "100014"
+}
+selfCards {
+  cardId: 108
+  cardNum: 8
+  cardColor: 1
+}
+selfCards {
+  cardId: 313
+  cardNum: 13
+  cardColor: 3
+}
+selfCards {
+  cardId: 412
+  cardNum: 12
+  cardColor: 4
+}
+selfCards {
+  cardId: 205
+  cardNum: 5
+  cardColor: 2
+}
+selfCards {
+  cardId: 517
+  cardNum: 17
+  cardColor: 5
+}
+selfCards {
+  cardId: 306
+  cardNum: 6
+  cardColor: 3
+}
+selfCards {
+  cardId: 106
+  cardNum: 6
+  cardColor: 1
+}
+selfCards {
+  cardId: 107
+  cardNum: 7
+  cardColor: 1
+}
+selfCards {
+  cardId: 409
+  cardNum: 9
+  cardColor: 4
+}
+selfCards {
+  cardId: 406
+  cardNum: 6
+  cardColor: 4
+}
+selfCards {
+  cardId: 413
+  cardNum: 13
+  cardColor: 4
+}
+selfCards {
+  cardId: 211
+  cardNum: 11
+  cardColor: 2
+}
+selfCards {
+  cardId: 310
+  cardNum: 10
+  cardColor: 3
+}
+selfCards {
+  cardId: 404
+  cardNum: 4
+  cardColor: 4
+}
+selfCards {
+  cardId: 411
+  cardNum: 11
+  cardColor: 4
+}
+selfCards {
+  cardId: 212
+  cardNum: 12
+  cardColor: 2
+}
+selfCards {
+  cardId: 408
+  cardNum: 8
+  cardColor: 4
+}
+lastCard {
+  cardId: 410
+  cardNum: 10
+  cardColor: 4
+}
+lastCard {
+  cardId: 102
+  cardNum: 2
+  cardColor: 1
+}
+lastCard {
+  cardId: 112
+  cardNum: 12
+  cardColor: 1
+}
+
+2018-12-05 19:13:21.351 [nioEventLoopGroup-5-12] DEBUG com.version.common.util.LoggerUtil:22 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]
+CODE:999998[999998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+now: 1544008401351
+heartbeartTime: 5000
+
+2018-12-05 19:13:21.413 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]]
+CODE:799999[799999]
+account: "100014"
+ticket: "GR35HYNMZ7FHZCQINTRLDTHAUCBCODOQZGQFUP27TH3KCMD6BKDMP3BSO6FB3X2RIMFLBSUCTF4ABIIDKV3MFPLV6OCJB72CPWAVYQ247DMPBDYSBVYA"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:13:21.439 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]
+CODE:799998[799998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\347\231\273\351\231\206\346\210\220\345\212\237!"
+}
+
+2018-12-05 19:13:21.461 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]]
+CODE:799994[799994]
+roomId: "8973610"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:13:21.465 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]
+CODE:799971[799971]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\257\267\346\261\202\346\210\220\345\212\237"
+}
+
+2018-12-05 19:13:21.465 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "100014"
+  nickName: "15196608712"
+  headImg: ""
+  ip: ""
+  health: 111111.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 2
+  controllerUniqueId: "100014"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:13:21.465 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "100014"
+  nickName: "15196608712"
+  headImg: ""
+  ip: ""
+  health: 111111.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 2
+  controllerUniqueId: "100014"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:13:21.465 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]
+CODE:799970[799970]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "100014"
+  nickName: "15196608712"
+  headImg: ""
+  ip: ""
+  health: 111111.0
+  sex: 1
+  robot: 0
+  watcher: 0
+  extendStr: ""
+}
+posBrife {
+  pos: 2
+  controllerUniqueId: "100014"
+  online: 1
+  ready: 1
+}
+online: true
+
+2018-12-05 19:13:21.465 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]
+CODE:799993[799993]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\345\212\240\345\205\245\346\210\277\351\227\264\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 11
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+readyTimer: 30000
+
+2018-12-05 19:13:22.088 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]]
+CODE:799975[799975]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:13:22.088 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]
+CODE:799974[799974]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\216\267\345\217\226\346\210\277\351\227\264\344\277\241\346\201\257\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 11
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+
+2018-12-05 19:13:22.218 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]]
+CODE:269987[269987]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:13:22.219 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]
+CODE:269986[269986]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\216\267\345\217\226\346\225\260\346\215\256\346\210\220\345\212\237"
+}
+gameId: 8884
+roomStatus: 11
+roomInfo {
+  roomId: "8973610"
+  roomName: "100012\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100012"
+  controllers {
+    uniqueId: "116981"
+    nickName: "\347\216\251\345\256\2668710"
+    headImg: "14"
+    ip: ""
+    health: 1000999.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100012"
+    nickName: "15196608711"
+    headImg: ""
+    ip: ""
+    health: 100000.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 11
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100012"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 2
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 1
+  }
+  posBrifes {
+    pos: 3
+    controllerUniqueId: "116981"
+    online: 1
+    ready: 1
+  }
+  leftMatchCount: 2147483646
+  totalCount: 2147483647
+  maxPlayerNum: 3
+  currentPlayerNum: 3
+  yazhu: 1.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 1
+}
+currentCtrlPos {
+  currentCtrlPos: 3
+  ctrlTime: 5
+  checkOutCard: 11
+}
+landlordId: "116981"
+allMultiple: 1
+playersMsg {
+  lastCardNum: 20
+  allScore: 0
+  uId: "116981"
+}
+playersMsg {
+  lastCardNum: 17
+  allScore: 0
+  uId: "100012"
+}
+playersMsg {
+  lastCardNum: 17
+  allScore: 0
+  uId: "100014"
+}
+selfCards {
+  cardId: 312
+  cardNum: 12
+  cardColor: 3
+}
+selfCards {
+  cardId: 308
+  cardNum: 8
+  cardColor: 3
+}
+selfCards {
+  cardId: 111
+  cardNum: 11
+  cardColor: 1
+}
+selfCards {
+  cardId: 104
+  cardNum: 4
+  cardColor: 1
+}
+selfCards {
+  cardId: 208
+  cardNum: 8
+  cardColor: 2
+}
+selfCards {
+  cardId: 204
+  cardNum: 4
+  cardColor: 2
+}
+selfCards {
+  cardId: 109
+  cardNum: 9
+  cardColor: 1
+}
+selfCards {
+  cardId: 309
+  cardNum: 9
+  cardColor: 3
+}
+selfCards {
+  cardId: 203
+  cardNum: 3
+  cardColor: 2
+}
+selfCards {
+  cardId: 314
+  cardNum: 14
+  cardColor: 3
+}
+selfCards {
+  cardId: 105
+  cardNum: 5
+  cardColor: 1
+}
+selfCards {
+  cardId: 402
+  cardNum: 2
+  cardColor: 4
+}
+selfCards {
+  cardId: 210
+  cardNum: 10
+  cardColor: 2
+}
+selfCards {
+  cardId: 414
+  cardNum: 14
+  cardColor: 4
+}
+selfCards {
+  cardId: 114
+  cardNum: 14
+  cardColor: 1
+}
+selfCards {
+  cardId: 103
+  cardNum: 3
+  cardColor: 1
+}
+selfCards {
+  cardId: 202
+  cardNum: 2
+  cardColor: 2
+}
+lastCard {
+  cardId: 410
+  cardNum: 10
+  cardColor: 4
+}
+lastCard {
+  cardId: 102
+  cardNum: 2
+  cardColor: 1
+}
+lastCard {
+  cardId: 112
+  cardNum: 12
+  cardColor: 1
+}
+
+2018-12-05 19:13:24.973 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]]
+CODE:269992[269992]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:13:24.973 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:269991[269991]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+}
+
+2018-12-05 19:13:24.973 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:269991[269991]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 404
+  success: false
+  msg: "\347\254\254\344\270\200\344\270\252\347\216\251\345\256\266\345\277\205\351\241\273\345\207\272\347\211\214"
+}
+
+2018-12-05 19:13:28.836 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]]
+CODE:269992[269992]
+cards {
+  cardId: 307
+  cardNum: 7
+  cardColor: 3
+}
+cards {
+  cardId: 207
+  cardNum: 7
+  cardColor: 2
+}
+cards {
+  cardId: 407
+  cardNum: 7
+  cardColor: 4
+}
+cards {
+  cardId: 303
+  cardNum: 3
+  cardColor: 3
+}
+cards {
+  cardId: 403
+  cardNum: 3
+  cardColor: 4
+}
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:13:28.836 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:269991[269991]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+}
+
+2018-12-05 19:13:28.836 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:269991[269991]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+}
+
+2018-12-05 19:13:28.836 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:269990[269990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+outCards {
+  cardId: 307
+  cardNum: 7
+  cardColor: 3
+}
+outCards {
+  cardId: 207
+  cardNum: 7
+  cardColor: 2
+}
+outCards {
+  cardId: 407
+  cardNum: 7
+  cardColor: 4
+}
+outCards {
+  cardId: 303
+  cardNum: 3
+  cardColor: 3
+}
+outCards {
+  cardId: 403
+  cardNum: 3
+  cardColor: 4
+}
+outCardsType: 5
+allMultiple: 1
+lastCardNum: 15
+uId: "116981"
+
+2018-12-05 19:13:28.836 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:269990[269990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+outCards {
+  cardId: 307
+  cardNum: 7
+  cardColor: 3
+}
+outCards {
+  cardId: 207
+  cardNum: 7
+  cardColor: 2
+}
+outCards {
+  cardId: 407
+  cardNum: 7
+  cardColor: 4
+}
+outCards {
+  cardId: 303
+  cardNum: 3
+  cardColor: 3
+}
+outCards {
+  cardId: 403
+  cardNum: 3
+  cardColor: 4
+}
+outCardsType: 5
+allMultiple: 1
+lastCardNum: 15
+uId: "116981"
+
+2018-12-05 19:13:28.836 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]
+CODE:269990[269990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+outCards {
+  cardId: 307
+  cardNum: 7
+  cardColor: 3
+}
+outCards {
+  cardId: 207
+  cardNum: 7
+  cardColor: 2
+}
+outCards {
+  cardId: 407
+  cardNum: 7
+  cardColor: 4
+}
+outCards {
+  cardId: 303
+  cardNum: 3
+  cardColor: 3
+}
+outCards {
+  cardId: 403
+  cardNum: 3
+  cardColor: 4
+}
+outCardsType: 5
+allMultiple: 1
+lastCardNum: 15
+uId: "116981"
+
+2018-12-05 19:13:28.836 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 当前玩家的剩余牌数量:15
+2018-12-05 19:13:28.837 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:269997[269997]
+
+-----------------------------------------------------------------
+
+
+
+
+
+currentCtrlPos: 1
+ctrlTime: 5
+checkOutCard: 11
+
+2018-12-05 19:13:28.837 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:269997[269997]
+
+-----------------------------------------------------------------
+
+
+
+
+
+currentCtrlPos: 1
+ctrlTime: 5
+checkOutCard: 11
+
+2018-12-05 19:13:28.837 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]
+CODE:269997[269997]
+
+-----------------------------------------------------------------
+
+
+
+
+
+currentCtrlPos: 1
+ctrlTime: 5
+checkOutCard: 11
+
+2018-12-05 19:13:28.837 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 当前的操作位置:1
+2018-12-05 19:13:44.366 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]]
+CODE:269992[269992]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:13:44.366 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:269991[269991]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+}
+
+2018-12-05 19:13:44.366 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:269990[269990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+outCardsType: 5
+allMultiple: 1
+lastCardNum: 17
+uId: "100012"
+
+2018-12-05 19:13:44.366 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:269990[269990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+outCardsType: 5
+allMultiple: 1
+lastCardNum: 17
+uId: "100012"
+
+2018-12-05 19:13:44.366 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]
+CODE:269990[269990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+outCardsType: 5
+allMultiple: 1
+lastCardNum: 17
+uId: "100012"
+
+2018-12-05 19:13:44.366 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:269997[269997]
+
+-----------------------------------------------------------------
+
+
+
+
+
+currentCtrlPos: 2
+ctrlTime: 5
+checkOutCard: 11
+
+2018-12-05 19:13:44.366 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:269997[269997]
+
+-----------------------------------------------------------------
+
+
+
+
+
+currentCtrlPos: 2
+ctrlTime: 5
+checkOutCard: 11
+
+2018-12-05 19:13:44.366 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]
+CODE:269997[269997]
+
+-----------------------------------------------------------------
+
+
+
+
+
+currentCtrlPos: 2
+ctrlTime: 5
+checkOutCard: 11
+
+2018-12-05 19:13:44.367 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 当前的操作位置:2
+2018-12-05 19:13:45.423 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]]
+CODE:269992[269992]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:13:45.423 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]
+CODE:269991[269991]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+}
+
+2018-12-05 19:13:45.423 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:269990[269990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+outCardsType: 0
+allMultiple: 1
+lastCardNum: 17
+uId: "100014"
+roundOver: 1
+
+2018-12-05 19:13:45.424 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:269990[269990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+outCardsType: 0
+allMultiple: 1
+lastCardNum: 17
+uId: "100014"
+roundOver: 1
+
+2018-12-05 19:13:45.424 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]
+CODE:269990[269990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+outCardsType: 0
+allMultiple: 1
+lastCardNum: 17
+uId: "100014"
+roundOver: 1
+
+2018-12-05 19:13:45.424 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:269997[269997]
+
+-----------------------------------------------------------------
+
+
+
+
+
+currentCtrlPos: 3
+ctrlTime: 5
+checkOutCard: 11
+
+2018-12-05 19:13:45.424 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:269997[269997]
+
+-----------------------------------------------------------------
+
+
+
+
+
+currentCtrlPos: 3
+ctrlTime: 5
+checkOutCard: 11
+
+2018-12-05 19:13:45.424 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]
+CODE:269997[269997]
+
+-----------------------------------------------------------------
+
+
+
+
+
+currentCtrlPos: 3
+ctrlTime: 5
+checkOutCard: 11
+
+2018-12-05 19:13:45.424 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 当前的操作位置:3
+2018-12-05 19:14:38.401 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]]
+CODE:269992[269992]
+cards {
+  cardId: 302
+  cardNum: 2
+  cardColor: 3
+}
+cards {
+  cardId: 102
+  cardNum: 2
+  cardColor: 1
+}
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:14:38.401 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:269991[269991]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+}
+
+2018-12-05 19:14:38.401 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:269991[269991]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+}
+
+2018-12-05 19:14:38.401 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:269990[269990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+outCards {
+  cardId: 302
+  cardNum: 2
+  cardColor: 3
+}
+outCards {
+  cardId: 102
+  cardNum: 2
+  cardColor: 1
+}
+outCardsType: 2
+allMultiple: 1
+lastCardNum: 13
+uId: "116981"
+
+2018-12-05 19:14:38.401 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:269990[269990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+outCards {
+  cardId: 302
+  cardNum: 2
+  cardColor: 3
+}
+outCards {
+  cardId: 102
+  cardNum: 2
+  cardColor: 1
+}
+outCardsType: 2
+allMultiple: 1
+lastCardNum: 13
+uId: "116981"
+
+2018-12-05 19:14:38.401 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]
+CODE:269990[269990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+outCards {
+  cardId: 302
+  cardNum: 2
+  cardColor: 3
+}
+outCards {
+  cardId: 102
+  cardNum: 2
+  cardColor: 1
+}
+outCardsType: 2
+allMultiple: 1
+lastCardNum: 13
+uId: "116981"
+
+2018-12-05 19:14:38.402 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 当前玩家的剩余牌数量:13
+2018-12-05 19:14:38.402 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:269997[269997]
+
+-----------------------------------------------------------------
+
+
+
+
+
+currentCtrlPos: 1
+ctrlTime: 5
+checkOutCard: 11
+
+2018-12-05 19:14:38.402 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:269997[269997]
+
+-----------------------------------------------------------------
+
+
+
+
+
+currentCtrlPos: 1
+ctrlTime: 5
+checkOutCard: 11
+
+2018-12-05 19:14:38.402 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]
+CODE:269997[269997]
+
+-----------------------------------------------------------------
+
+
+
+
+
+currentCtrlPos: 1
+ctrlTime: 5
+checkOutCard: 11
+
+2018-12-05 19:14:38.402 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 当前的操作位置:1
+2018-12-05 19:15:34.859 [New I/O client worker #1-2] INFO  c.a.d.r.protocol.dubbo.DubboProtocol:59 -  [DUBBO] disconected from /192.168.31.245:20840,url:dubbo://192.168.31.245:20840/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,verfiyPass,queryDetail,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1543979183443&revision=1.0.0&side=consumer&timestamp=1544002103475, dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:15:34.860 [New I/O client worker #1-1] INFO  c.a.d.r.protocol.dubbo.DubboProtocol:59 -  [DUBBO] disconected from /192.168.31.245:20881,url:dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,findAccount,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1543979168767&revision=1.0.0&side=consumer&timestamp=1544002103475, dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:15:39.734 [DubboClientReconnectTimer-thread-1] WARN  c.a.d.r.transport.AbstractClient:79 -  [DUBBO] client reconnect to 192.168.31.245:20881 find error . url: dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,findAccount,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1543979168767&revision=1.0.0&side=consumer&timestamp=1544002103475, dubbo version: 2.6.0, current host: 192.168.31.215
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,findAccount,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1543979168767&revision=1.0.0&side=consumer&timestamp=1544002103475) failed to connect to server /192.168.31.245:20881 client-side timeout 3000ms (elapsed: 3001ms) from netty client 192.168.31.215 using dubbo version 2.6.0
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:125)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:266)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:155)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-05 19:15:39.769 [DubboClientReconnectTimer-thread-2] WARN  c.a.d.r.transport.AbstractClient:79 -  [DUBBO] client reconnect to 192.168.31.245:20840 find error . url: dubbo://192.168.31.245:20840/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,verfiyPass,queryDetail,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1543979183443&revision=1.0.0&side=consumer&timestamp=1544002103475, dubbo version: 2.6.0, current host: 192.168.31.215
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://192.168.31.245:20840/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,verfiyPass,queryDetail,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1543979183443&revision=1.0.0&side=consumer&timestamp=1544002103475) failed to connect to server /192.168.31.245:20840 client-side timeout 3000ms (elapsed: 3001ms) from netty client 192.168.31.215 using dubbo version 2.6.0
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:125)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:266)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:155)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-05 19:15:57.178 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.zookeeper.ZookeeperRegistry:59 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.215/com.account.rpc.AccountRPCService?application=qipai-logic&category=providers,configurators,routers&dubbo=2.6.0&interface=com.account.rpc.AccountRPCService&methods=proxyDrawalCancle,queryRate,invertBizs,queryChargeUsersByDay,changeTo,queryAccounts,findTotal,viewWithdrawCfg,proxyDrawalSure,queryUserBank,saveWithdrawCfg,verfiyPass,queryDetail,findAccount,queryChargeNewUsersByDay,freezeAll,queryAccountWithRate,queryAccount,queryUserDrawal,invertBiz,userChargeAvrge,queryChargeAmountByDay&pid=92976&revision=1.0.0&side=consumer&timestamp=1544002103475, urls: [dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=account&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,findAccount,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=24712&side=provider&threads=500&timestamp=1543979168767, dubbo://192.168.31.5:20881/com.account.rpc.AccountRPCService?anyhost=true&application=account&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16852&side=provider&timestamp=1543804733464, dubbo://192.168.31.5:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,queryDetail,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16853&side=provider&timestamp=1543804731365], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:16:03.177 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.zookeeper.ZookeeperRegistry:59 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.215/com.account.rpc.AccountRPCService?application=qipai-logic&category=providers,configurators,routers&dubbo=2.6.0&interface=com.account.rpc.AccountRPCService&methods=proxyDrawalCancle,queryRate,invertBizs,queryChargeUsersByDay,changeTo,queryAccounts,findTotal,viewWithdrawCfg,proxyDrawalSure,queryUserBank,saveWithdrawCfg,verfiyPass,queryDetail,findAccount,queryChargeNewUsersByDay,freezeAll,queryAccountWithRate,queryAccount,queryUserDrawal,invertBiz,userChargeAvrge,queryChargeAmountByDay&pid=92976&revision=1.0.0&side=consumer&timestamp=1544002103475, urls: [dubbo://192.168.31.5:20881/com.account.rpc.AccountRPCService?anyhost=true&application=account&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16852&side=provider&timestamp=1543804733464, dubbo://192.168.31.5:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,queryDetail,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16853&side=provider&timestamp=1543804731365], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:16:03.178 [ZkClient-EventThread-29-192.168.31.3:2181] ERROR c.a.d.r.i.RegistryDirectory:87 - urls to invokers error .invokerUrls.size :2, invoker.size :0. urls :[dubbo://192.168.31.5:20881/com.account.rpc.AccountRPCService?anyhost=true&application=account&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16852&side=provider&timestamp=1543804733464, dubbo://192.168.31.5:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,queryDetail,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16853&side=provider&timestamp=1543804731365]
+java.lang.IllegalStateException: urls to invokers error .invokerUrls.size :2, invoker.size :0. urls :[dubbo://192.168.31.5:20881/com.account.rpc.AccountRPCService?anyhost=true&application=account&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16852&side=provider&timestamp=1543804733464, dubbo://192.168.31.5:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,queryDetail,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16853&side=provider&timestamp=1543804731365]
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.refreshInvoker(RegistryDirectory.java:256)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.notify(RegistryDirectory.java:221)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:410)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.doNotify(FailbackRegistry.java:288)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.notify(FailbackRegistry.java:274)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.access$400(ZookeeperRegistry.java:43)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry$3.childChanged(ZookeeperRegistry.java:171)
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2.handleChildChange(ZkclientZookeeperClient.java:108)
+	at org.I0Itec.zkclient.ZkClient$10.run(ZkClient.java:844)
+	at org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:72)
+2018-12-05 19:16:22.910 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]]
+CODE:799991[799991]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:16:22.910 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 - R:/192.168.31.50:53538]
+CODE:799990[799990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\351\200\200\345\207\272\346\210\277\351\227\264\346\210\220\345\212\237"
+}
+
+2018-12-05 19:16:23.887 [nioEventLoopGroup-5-1] DEBUG com.version.common.util.LoggerUtil:22 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xfbd32d2f, L:/192.168.31.215:34700 - R:/192.168.31.50:53602]
+CODE:999998[999998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+now: 1544008583887
+heartbeartTime: 5000
+
+2018-12-05 19:16:23.942 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xfbd32d2f, L:/192.168.31.215:34700 - R:/192.168.31.50:53602]]
+CODE:799999[799999]
+account: "100014"
+ticket: "GR35HYNMZ7FHZCQINTRLDTHAUCBCODOQZGQFUP27TH3KCMD6BKDMP3BSO6FB3X2RIMFLBSUCTF4ABIIDKV3MFPLV6OCJB72CPWAVYQ247DMPBDYSBVYA"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:16:23.958 [pool-1-thread-30] ERROR com.version.common.util.LoggerUtil:25 - com.alibaba.dubbo.rpc.RpcException: Failed to invoke the method queryAccount in the service com.account.rpc.AccountRPCService. Tried 3 times of the providers [192.168.31.245:20881] (1/1) from the registry 192.168.31.3:2181 on the consumer 192.168.31.215 using the dubbo version 2.6.0. Last error is: Failed to invoke remote method: queryAccount, provider: dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,findAccount,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1543979168767&revision=1.0.0&side=consumer&timestamp=1544002103475, cause: message can not send, because channel is closed . url:dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,findAccount,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1543979168767&revision=1.0.0&side=consumer&timestamp=1544002103475
+	at com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker.doInvoke(FailoverClusterInvoker.java:101)
+	at com.alibaba.dubbo.rpc.cluster.support.AbstractClusterInvoker.invoke(AbstractClusterInvoker.java:232)
+	at com.alibaba.dubbo.rpc.cluster.support.wrapper.MockClusterInvoker.invoke(MockClusterInvoker.java:70)
+	at com.alibaba.dubbo.rpc.proxy.InvokerInvocationHandler.invoke(InvokerInvocationHandler.java:51)
+	at com.alibaba.dubbo.common.bytecode.proxy0.queryAccount(proxy0.java)
+	at com.version.service.LogicServiceImpl.reqLogicLogin(LogicServiceImpl.java:255)
+	at com.version.process.server.ReqLogicLoginProcess.handle(ReqLogicLoginProcess.java:22)
+	at com.version.process.server.ReqLogicLoginProcess.handle(ReqLogicLoginProcess.java:12)
+	at com.version.common.NetProcess.run(NetProcess.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.dubbo.remoting.RemotingException: message can not send, because channel is closed . url:dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,findAccount,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1543979168767&revision=1.0.0&side=consumer&timestamp=1544002103475
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.send(AbstractClient.java:254)
+	at com.alibaba.dubbo.remoting.transport.AbstractPeer.send(AbstractPeer.java:52)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeChannel.request(HeaderExchangeChannel.java:111)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeClient.request(HeaderExchangeClient.java:86)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient.request(ReferenceCountExchangeClient.java:77)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboInvoker.doInvoke(DubboInvoker.java:95)
+	at com.alibaba.dubbo.rpc.protocol.AbstractInvoker.invoke(AbstractInvoker.java:142)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:74)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:68)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.FutureFilter.invoke(FutureFilter.java:53)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:68)
+	at com.alibaba.dubbo.rpc.filter.ConsumerContextFilter.invoke(ConsumerContextFilter.java:47)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:68)
+	at com.alibaba.dubbo.rpc.listener.ListenerInvokerWrapper.invoke(ListenerInvokerWrapper.java:73)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:52)
+	at com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker.doInvoke(FailoverClusterInvoker.java:77)
+	... 13 more
+
+2018-12-05 19:16:23.959 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xfbd32d2f, L:/192.168.31.215:34700 - R:/192.168.31.50:53602]
+CODE:899998[899998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 404
+  success: false
+  msg: "\350\216\267\345\217\226\350\264\246\346\210\267\346\225\260\346\215\256\345\244\261\350\264\245"
+}
+
+2018-12-05 19:16:49.288 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]]
+CODE:799991[799991]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:16:49.288 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 - R:/192.168.31.50:53528]
+CODE:799990[799990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\351\200\200\345\207\272\346\210\277\351\227\264\346\210\220\345\212\237"
+}
+
+2018-12-05 19:16:50.436 [nioEventLoopGroup-5-2] DEBUG com.version.common.util.LoggerUtil:22 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xa018be00, L:/192.168.31.215:34700 - R:/192.168.31.50:53611]
+CODE:999998[999998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+now: 1544008610436
+heartbeartTime: 5000
+
+2018-12-05 19:16:50.492 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xa018be00, L:/192.168.31.215:34700 - R:/192.168.31.50:53611]]
+CODE:799999[799999]
+account: "100012"
+ticket: "WJAY2BS5I5I4FNQXPXDKP6LHZP7EQUASGTGQYP5WEL5UOPF4SHITEBCBOXZGKIJOEFQH23ORMDP7QOLXA4CMOIWA52ZQ6QNZXWCPZSMF4U3ZRWJ2NQ5Q"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:16:50.508 [pool-1-thread-30] ERROR com.version.common.util.LoggerUtil:25 - com.alibaba.dubbo.rpc.RpcException: Failed to invoke the method queryAccount in the service com.account.rpc.AccountRPCService. Tried 3 times of the providers [192.168.31.245:20881] (1/1) from the registry 192.168.31.3:2181 on the consumer 192.168.31.215 using the dubbo version 2.6.0. Last error is: Failed to invoke remote method: queryAccount, provider: dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,findAccount,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1543979168767&revision=1.0.0&side=consumer&timestamp=1544002103475, cause: message can not send, because channel is closed . url:dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,findAccount,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1543979168767&revision=1.0.0&side=consumer&timestamp=1544002103475
+	at com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker.doInvoke(FailoverClusterInvoker.java:101)
+	at com.alibaba.dubbo.rpc.cluster.support.AbstractClusterInvoker.invoke(AbstractClusterInvoker.java:232)
+	at com.alibaba.dubbo.rpc.cluster.support.wrapper.MockClusterInvoker.invoke(MockClusterInvoker.java:70)
+	at com.alibaba.dubbo.rpc.proxy.InvokerInvocationHandler.invoke(InvokerInvocationHandler.java:51)
+	at com.alibaba.dubbo.common.bytecode.proxy0.queryAccount(proxy0.java)
+	at com.version.service.LogicServiceImpl.reqLogicLogin(LogicServiceImpl.java:255)
+	at com.version.process.server.ReqLogicLoginProcess.handle(ReqLogicLoginProcess.java:22)
+	at com.version.process.server.ReqLogicLoginProcess.handle(ReqLogicLoginProcess.java:12)
+	at com.version.common.NetProcess.run(NetProcess.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.dubbo.remoting.RemotingException: message can not send, because channel is closed . url:dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,findAccount,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1543979168767&revision=1.0.0&side=consumer&timestamp=1544002103475
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.send(AbstractClient.java:254)
+	at com.alibaba.dubbo.remoting.transport.AbstractPeer.send(AbstractPeer.java:52)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeChannel.request(HeaderExchangeChannel.java:111)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeClient.request(HeaderExchangeClient.java:86)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient.request(ReferenceCountExchangeClient.java:77)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboInvoker.doInvoke(DubboInvoker.java:95)
+	at com.alibaba.dubbo.rpc.protocol.AbstractInvoker.invoke(AbstractInvoker.java:142)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:74)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:68)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.FutureFilter.invoke(FutureFilter.java:53)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:68)
+	at com.alibaba.dubbo.rpc.filter.ConsumerContextFilter.invoke(ConsumerContextFilter.java:47)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:68)
+	at com.alibaba.dubbo.rpc.listener.ListenerInvokerWrapper.invoke(ListenerInvokerWrapper.java:73)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:52)
+	at com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker.doInvoke(FailoverClusterInvoker.java:77)
+	... 13 more
+
+2018-12-05 19:16:50.509 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xa018be00, L:/192.168.31.215:34700 - R:/192.168.31.50:53611]
+CODE:899998[899998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 404
+  success: false
+  msg: "\350\216\267\345\217\226\350\264\246\346\210\267\346\225\260\346\215\256\345\244\261\350\264\245"
+}
+
+2018-12-05 19:17:06.514 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]]
+CODE:799991[799991]
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:17:06.514 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 - R:/192.168.31.50:53507]
+CODE:799990[799990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\351\200\200\345\207\272\346\210\277\351\227\264\346\210\220\345\212\237"
+}
+
+2018-12-05 19:17:08.138 [nioEventLoopGroup-5-3] DEBUG com.version.common.util.LoggerUtil:22 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x8b63ea08, L:/192.168.31.215:34700 - R:/192.168.31.50:53618]
+CODE:999998[999998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+now: 1544008628138
+heartbeartTime: 5000
+
+2018-12-05 19:17:08.192 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x8b63ea08, L:/192.168.31.215:34700 - R:/192.168.31.50:53618]]
+CODE:799999[799999]
+account: "116981"
+ticket: "DGLXTJJIKSGPFCW4RRVBX6XOOS6LQHIPKXWRAPFNKTEUVAWHZTMBJOZGRLKVCJLZMN4LSG3Z3VJ4APVEBP3IHPWE63FXUSKKSNVC7BOJV3AEVJ4MNY3Q"
+
+-----------------------------------------------------------------
+
+
+2018-12-05 19:17:08.206 [pool-1-thread-30] ERROR com.version.common.util.LoggerUtil:25 - com.alibaba.dubbo.rpc.RpcException: Failed to invoke the method queryAccount in the service com.account.rpc.AccountRPCService. Tried 3 times of the providers [192.168.31.245:20881] (1/1) from the registry 192.168.31.3:2181 on the consumer 192.168.31.215 using the dubbo version 2.6.0. Last error is: Failed to invoke remote method: queryAccount, provider: dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,findAccount,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1543979168767&revision=1.0.0&side=consumer&timestamp=1544002103475, cause: message can not send, because channel is closed . url:dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,findAccount,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1543979168767&revision=1.0.0&side=consumer&timestamp=1544002103475
+	at com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker.doInvoke(FailoverClusterInvoker.java:101)
+	at com.alibaba.dubbo.rpc.cluster.support.AbstractClusterInvoker.invoke(AbstractClusterInvoker.java:232)
+	at com.alibaba.dubbo.rpc.cluster.support.wrapper.MockClusterInvoker.invoke(MockClusterInvoker.java:70)
+	at com.alibaba.dubbo.rpc.proxy.InvokerInvocationHandler.invoke(InvokerInvocationHandler.java:51)
+	at com.alibaba.dubbo.common.bytecode.proxy0.queryAccount(proxy0.java)
+	at com.version.service.LogicServiceImpl.reqLogicLogin(LogicServiceImpl.java:255)
+	at com.version.process.server.ReqLogicLoginProcess.handle(ReqLogicLoginProcess.java:22)
+	at com.version.process.server.ReqLogicLoginProcess.handle(ReqLogicLoginProcess.java:12)
+	at com.version.common.NetProcess.run(NetProcess.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.dubbo.remoting.RemotingException: message can not send, because channel is closed . url:dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,findAccount,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1543979168767&revision=1.0.0&side=consumer&timestamp=1544002103475
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.send(AbstractClient.java:254)
+	at com.alibaba.dubbo.remoting.transport.AbstractPeer.send(AbstractPeer.java:52)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeChannel.request(HeaderExchangeChannel.java:111)
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeClient.request(HeaderExchangeClient.java:86)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient.request(ReferenceCountExchangeClient.java:77)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboInvoker.doInvoke(DubboInvoker.java:95)
+	at com.alibaba.dubbo.rpc.protocol.AbstractInvoker.invoke(AbstractInvoker.java:142)
+	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:74)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:68)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.FutureFilter.invoke(FutureFilter.java:53)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:68)
+	at com.alibaba.dubbo.rpc.filter.ConsumerContextFilter.invoke(ConsumerContextFilter.java:47)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:68)
+	at com.alibaba.dubbo.rpc.listener.ListenerInvokerWrapper.invoke(ListenerInvokerWrapper.java:73)
+	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:52)
+	at com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker.doInvoke(FailoverClusterInvoker.java:77)
+	... 13 more
+
+2018-12-05 19:17:08.206 [pool-1-thread-30] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x8b63ea08, L:/192.168.31.215:34700 - R:/192.168.31.50:53618]
+CODE:899998[899998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 404
+  success: false
+  msg: "\350\216\267\345\217\226\350\264\246\346\210\267\346\225\260\346\215\256\345\244\261\350\264\245"
+}
+
+2018-12-05 19:29:59.134 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.zookeeper.ZookeeperRegistry:59 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.215/com.account.rpc.AccountRPCService?application=qipai-logic&category=providers,configurators,routers&dubbo=2.6.0&interface=com.account.rpc.AccountRPCService&methods=proxyDrawalCancle,queryRate,invertBizs,queryChargeUsersByDay,changeTo,queryAccounts,findTotal,viewWithdrawCfg,proxyDrawalSure,queryUserBank,saveWithdrawCfg,verfiyPass,queryDetail,findAccount,queryChargeNewUsersByDay,freezeAll,queryAccountWithRate,queryAccount,queryUserDrawal,invertBiz,userChargeAvrge,queryChargeAmountByDay&pid=92976&revision=1.0.0&side=consumer&timestamp=1544002103475, urls: [dubbo://192.168.31.5:20881/com.account.rpc.AccountRPCService?anyhost=true&application=account&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16852&side=provider&timestamp=1543804733464, dubbo://192.168.31.5:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,queryDetail,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16853&side=provider&timestamp=1543804731365, dubbo://192.168.31.245:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,queryAccountWithRate,freezeAll,queryAccount,queryUserDrawal,invertBiz,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=41036&side=provider&threads=500&timestamp=1544009400123], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:29:59.135 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.transport.AbstractClient:59 -  [DUBBO] Successed connect to server /192.168.31.245:20840 from NettyClient 192.168.31.215 using dubbo version 2.6.0, channel is NettyChannel [channel=[id: 0x019d0c9f, /192.168.31.215:50302 => /192.168.31.245:20840]], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:29:59.136 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.transport.AbstractClient:59 -  [DUBBO] Start NettyClient BF-201806051332/192.168.31.215 connect to the server /192.168.31.245:20840, dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:30:26.606 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.zookeeper.ZookeeperRegistry:59 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.215/com.account.rpc.AccountRPCService?application=qipai-logic&category=providers,configurators,routers&dubbo=2.6.0&interface=com.account.rpc.AccountRPCService&methods=proxyDrawalCancle,queryRate,invertBizs,queryChargeUsersByDay,changeTo,queryAccounts,findTotal,viewWithdrawCfg,proxyDrawalSure,queryUserBank,saveWithdrawCfg,verfiyPass,queryDetail,findAccount,queryChargeNewUsersByDay,freezeAll,queryAccountWithRate,queryAccount,queryUserDrawal,invertBiz,userChargeAvrge,queryChargeAmountByDay&pid=92976&revision=1.0.0&side=consumer&timestamp=1544002103475, urls: [dubbo://192.168.31.5:20881/com.account.rpc.AccountRPCService?anyhost=true&application=account&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16852&side=provider&timestamp=1543804733464, dubbo://192.168.31.5:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,queryDetail,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16853&side=provider&timestamp=1543804731365, dubbo://192.168.31.245:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,queryAccountWithRate,freezeAll,queryAccount,queryUserDrawal,invertBiz,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=41036&side=provider&threads=500&timestamp=1544009400123, dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=account&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,verfiyPass,queryDetail,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=20960&side=provider&threads=500&timestamp=1544009427590], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:30:26.612 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.transport.AbstractClient:59 -  [DUBBO] Successed connect to server /192.168.31.245:20881 from NettyClient 192.168.31.215 using dubbo version 2.6.0, channel is NettyChannel [channel=[id: 0x4dff2154, /192.168.31.215:50307 => /192.168.31.245:20881]], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:30:26.613 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.transport.AbstractClient:59 -  [DUBBO] Start NettyClient BF-201806051332/192.168.31.215 connect to the server /192.168.31.245:20881, dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:30:43.707 [New I/O client worker #1-5] INFO  c.a.d.r.protocol.dubbo.DubboProtocol:59 -  [DUBBO] disconected from /192.168.31.245:20881,url:dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,verfiyPass,queryDetail,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1544009427590&revision=1.0.0&side=consumer&timestamp=1544002103475, dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:30:43.738 [New I/O client worker #1-4] INFO  c.a.d.r.protocol.dubbo.DubboProtocol:59 -  [DUBBO] disconected from /192.168.31.245:20840,url:dubbo://192.168.31.245:20840/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,queryAccountWithRate,freezeAll,queryAccount,queryUserDrawal,invertBiz,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1544009400123&revision=1.0.0&side=consumer&timestamp=1544002103475, dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:30:47.616 [DubboClientReconnectTimer-thread-1] WARN  c.a.d.r.transport.AbstractClient:79 -  [DUBBO] client reconnect to 192.168.31.245:20881 find error . url: dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,verfiyPass,queryDetail,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1544009427590&revision=1.0.0&side=consumer&timestamp=1544002103475, dubbo version: 2.6.0, current host: 192.168.31.215
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,verfiyPass,queryDetail,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1544009427590&revision=1.0.0&side=consumer&timestamp=1544002103475) failed to connect to server /192.168.31.245:20881 client-side timeout 3000ms (elapsed: 3002ms) from netty client 192.168.31.215 using dubbo version 2.6.0
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:125)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:266)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:155)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-05 19:30:48.150 [DubboClientReconnectTimer-thread-2] WARN  c.a.d.r.transport.AbstractClient:79 -  [DUBBO] client reconnect to 192.168.31.245:20840 find error . url: dubbo://192.168.31.245:20840/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,queryAccountWithRate,freezeAll,queryAccount,queryUserDrawal,invertBiz,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1544009400123&revision=1.0.0&side=consumer&timestamp=1544002103475, dubbo version: 2.6.0, current host: 192.168.31.215
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://192.168.31.245:20840/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,queryAccountWithRate,freezeAll,queryAccount,queryUserDrawal,invertBiz,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1544009400123&revision=1.0.0&side=consumer&timestamp=1544002103475) failed to connect to server /192.168.31.245:20840 client-side timeout 3000ms (elapsed: 3001ms) from netty client 192.168.31.215 using dubbo version 2.6.0
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:125)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:266)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:155)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-05 19:31:07.214 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.zookeeper.ZookeeperRegistry:59 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.215/com.account.rpc.AccountRPCService?application=qipai-logic&category=providers,configurators,routers&dubbo=2.6.0&interface=com.account.rpc.AccountRPCService&methods=proxyDrawalCancle,queryRate,invertBizs,queryChargeUsersByDay,changeTo,queryAccounts,findTotal,viewWithdrawCfg,proxyDrawalSure,queryUserBank,saveWithdrawCfg,verfiyPass,queryDetail,findAccount,queryChargeNewUsersByDay,freezeAll,queryAccountWithRate,queryAccount,queryUserDrawal,invertBiz,userChargeAvrge,queryChargeAmountByDay&pid=92976&revision=1.0.0&side=consumer&timestamp=1544002103475, urls: [dubbo://192.168.31.5:20881/com.account.rpc.AccountRPCService?anyhost=true&application=account&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16852&side=provider&timestamp=1543804733464, dubbo://192.168.31.5:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,queryDetail,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16853&side=provider&timestamp=1543804731365, dubbo://192.168.31.245:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,queryAccountWithRate,freezeAll,queryAccount,queryUserDrawal,invertBiz,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=41036&side=provider&threads=500&timestamp=1544009400123], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:31:09.214 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.zookeeper.ZookeeperRegistry:59 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.215/com.account.rpc.AccountRPCService?application=qipai-logic&category=providers,configurators,routers&dubbo=2.6.0&interface=com.account.rpc.AccountRPCService&methods=proxyDrawalCancle,queryRate,invertBizs,queryChargeUsersByDay,changeTo,queryAccounts,findTotal,viewWithdrawCfg,proxyDrawalSure,queryUserBank,saveWithdrawCfg,verfiyPass,queryDetail,findAccount,queryChargeNewUsersByDay,freezeAll,queryAccountWithRate,queryAccount,queryUserDrawal,invertBiz,userChargeAvrge,queryChargeAmountByDay&pid=92976&revision=1.0.0&side=consumer&timestamp=1544002103475, urls: [dubbo://192.168.31.5:20881/com.account.rpc.AccountRPCService?anyhost=true&application=account&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16852&side=provider&timestamp=1543804733464, dubbo://192.168.31.5:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,queryDetail,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16853&side=provider&timestamp=1543804731365], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:31:09.214 [ZkClient-EventThread-29-192.168.31.3:2181] ERROR c.a.d.r.i.RegistryDirectory:87 - urls to invokers error .invokerUrls.size :2, invoker.size :0. urls :[dubbo://192.168.31.5:20881/com.account.rpc.AccountRPCService?anyhost=true&application=account&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16852&side=provider&timestamp=1543804733464, dubbo://192.168.31.5:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,queryDetail,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16853&side=provider&timestamp=1543804731365]
+java.lang.IllegalStateException: urls to invokers error .invokerUrls.size :2, invoker.size :0. urls :[dubbo://192.168.31.5:20881/com.account.rpc.AccountRPCService?anyhost=true&application=account&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16852&side=provider&timestamp=1543804733464, dubbo://192.168.31.5:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,queryDetail,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16853&side=provider&timestamp=1543804731365]
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.refreshInvoker(RegistryDirectory.java:256)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.notify(RegistryDirectory.java:221)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:410)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.doNotify(FailbackRegistry.java:288)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.notify(FailbackRegistry.java:274)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.access$400(ZookeeperRegistry.java:43)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry$3.childChanged(ZookeeperRegistry.java:171)
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2.handleChildChange(ZkclientZookeeperClient.java:108)
+	at org.I0Itec.zkclient.ZkClient$10.run(ZkClient.java:844)
+	at org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:72)
+2018-12-05 19:34:58.689 [DefaultQuartzScheduler_Worker-8] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0xe4f0d5a6, L:/192.168.31.215:34700 ! R:/192.168.31.50:53507]
+CODE:999990[999990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+gameId: 8884
+type: 3
+msg: "\347\224\261\344\272\216\351\225\277\346\227\266\351\227\264\346\234\252\346\233\264\346\226\260\346\210\277\351\227\264\347\212\266\346\200\201\357\274\214\347\263\273\347\273\237\345\267\262\350\247\243\346\225\243\346\255\244\346\210\277\351\227\264\357\274\201"
+
+2018-12-05 19:34:58.691 [DefaultQuartzScheduler_Worker-8] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 ! R:/192.168.31.50:53528]
+CODE:799989[799989]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 2
+  extendStr: ""
+}
+
+2018-12-05 19:34:58.692 [DefaultQuartzScheduler_Worker-8] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 ! R:/192.168.31.50:53538]
+CODE:799989[799989]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "116981"
+  nickName: "\347\216\251\345\256\2668710"
+  headImg: "14"
+  ip: ""
+  health: 1000999.0
+  sex: 1
+  robot: 0
+  watcher: 2
+  extendStr: ""
+}
+
+2018-12-05 19:34:58.693 [DefaultQuartzScheduler_Worker-8] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x2c2774f8, L:/192.168.31.215:34700 ! R:/192.168.31.50:53528]
+CODE:999990[999990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+gameId: 8884
+type: 3
+msg: "\347\224\261\344\272\216\351\225\277\346\227\266\351\227\264\346\234\252\346\233\264\346\226\260\346\210\277\351\227\264\347\212\266\346\200\201\357\274\214\347\263\273\347\273\237\345\267\262\350\247\243\346\225\243\346\255\244\346\210\277\351\227\264\357\274\201"
+
+2018-12-05 19:34:58.695 [DefaultQuartzScheduler_Worker-8] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 ! R:/192.168.31.50:53538]
+CODE:799989[799989]
+
+-----------------------------------------------------------------
+
+
+
+
+
+roomId: "8973610"
+controller {
+  uniqueId: "100012"
+  nickName: "15196608711"
+  headImg: ""
+  ip: ""
+  health: 100000.0
+  sex: 1
+  robot: 0
+  watcher: 2
+  extendStr: ""
+}
+
+2018-12-05 19:34:58.697 [DefaultQuartzScheduler_Worker-8] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x63df38bc, L:/192.168.31.215:34700 ! R:/192.168.31.50:53538]
+CODE:999990[999990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+gameId: 8884
+type: 3
+msg: "\347\224\261\344\272\216\351\225\277\346\227\266\351\227\264\346\234\252\346\233\264\346\226\260\346\210\277\351\227\264\347\212\266\346\200\201\357\274\214\347\263\273\347\273\237\345\267\262\350\247\243\346\225\243\346\255\244\346\210\277\351\227\264\357\274\201"
+
+2018-12-05 19:41:09.622 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.zookeeper.ZookeeperRegistry:59 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.215/com.account.rpc.AccountRPCService?application=qipai-logic&category=providers,configurators,routers&dubbo=2.6.0&interface=com.account.rpc.AccountRPCService&methods=proxyDrawalCancle,queryRate,invertBizs,queryChargeUsersByDay,changeTo,queryAccounts,findTotal,viewWithdrawCfg,proxyDrawalSure,queryUserBank,saveWithdrawCfg,verfiyPass,queryDetail,findAccount,queryChargeNewUsersByDay,freezeAll,queryAccountWithRate,queryAccount,queryUserDrawal,invertBiz,userChargeAvrge,queryChargeAmountByDay&pid=92976&revision=1.0.0&side=consumer&timestamp=1544002103475, urls: [dubbo://192.168.31.245:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,queryDetail,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,queryUserDrawal,invertBiz,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=15396&side=provider&timestamp=1544010070595, dubbo://192.168.31.5:20881/com.account.rpc.AccountRPCService?anyhost=true&application=account&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16852&side=provider&timestamp=1543804733464, dubbo://192.168.31.5:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,queryDetail,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16853&side=provider&timestamp=1543804731365], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:41:10.443 [DubboClientReconnectTimer-thread-1] INFO  c.a.d.r.transport.netty.NettyClient:59 -  [DUBBO] Close old netty channel [id: 0x019d0c9f, /192.168.31.215:50302 :> /192.168.31.245:20840] on create new netty channel [id: 0x3758ce99, /192.168.31.215:50826 => /192.168.31.245:20840], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:41:10.444 [DubboClientReconnectTimer-thread-1] INFO  c.a.d.r.transport.AbstractClient:59 -  [DUBBO] Successed connect to server /192.168.31.245:20840 from NettyClient 192.168.31.215 using dubbo version 2.6.0, channel is NettyChannel [channel=[id: 0x3758ce99, /192.168.31.215:50826 => /192.168.31.245:20840]], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:54:59.919 [New I/O client worker #1-3] INFO  c.a.d.r.protocol.dubbo.DubboProtocol:59 -  [DUBBO] disconected from /192.168.31.245:20840,url:dubbo://192.168.31.245:20840/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,queryAccountWithRate,freezeAll,queryAccount,queryUserDrawal,invertBiz,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1544009400123&revision=1.0.0&side=consumer&timestamp=1544002103475, dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:55:03.730 [DubboClientReconnectTimer-thread-2] WARN  c.a.d.r.transport.AbstractClient:79 -  [DUBBO] client reconnect to 192.168.31.245:20840 find error . url: dubbo://192.168.31.245:20840/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,queryAccountWithRate,freezeAll,queryAccount,queryUserDrawal,invertBiz,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1544009400123&revision=1.0.0&side=consumer&timestamp=1544002103475, dubbo version: 2.6.0, current host: 192.168.31.215
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://192.168.31.245:20840/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,queryAccountWithRate,freezeAll,queryAccount,queryUserDrawal,invertBiz,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=92976&register.ip=192.168.31.215&remote.timestamp=1544009400123&revision=1.0.0&side=consumer&timestamp=1544002103475) failed to connect to server /192.168.31.245:20840 client-side timeout 3000ms (elapsed: 3001ms) from netty client 192.168.31.215 using dubbo version 2.6.0
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:125)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:266)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:155)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-05 19:55:31.275 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.zookeeper.ZookeeperRegistry:59 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.215/com.account.rpc.AccountRPCService?application=qipai-logic&category=providers,configurators,routers&dubbo=2.6.0&interface=com.account.rpc.AccountRPCService&methods=proxyDrawalCancle,queryRate,invertBizs,queryChargeUsersByDay,changeTo,queryAccounts,findTotal,viewWithdrawCfg,proxyDrawalSure,queryUserBank,saveWithdrawCfg,verfiyPass,queryDetail,findAccount,queryChargeNewUsersByDay,freezeAll,queryAccountWithRate,queryAccount,queryUserDrawal,invertBiz,userChargeAvrge,queryChargeAmountByDay&pid=92976&revision=1.0.0&side=consumer&timestamp=1544002103475, urls: [dubbo://192.168.31.5:20881/com.account.rpc.AccountRPCService?anyhost=true&application=account&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16852&side=provider&timestamp=1543804733464, dubbo://192.168.31.5:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,queryDetail,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16853&side=provider&timestamp=1543804731365], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-05 19:55:31.276 [ZkClient-EventThread-29-192.168.31.3:2181] ERROR c.a.d.r.i.RegistryDirectory:87 - urls to invokers error .invokerUrls.size :2, invoker.size :0. urls :[dubbo://192.168.31.5:20881/com.account.rpc.AccountRPCService?anyhost=true&application=account&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16852&side=provider&timestamp=1543804733464, dubbo://192.168.31.5:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,queryDetail,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16853&side=provider&timestamp=1543804731365]
+java.lang.IllegalStateException: urls to invokers error .invokerUrls.size :2, invoker.size :0. urls :[dubbo://192.168.31.5:20881/com.account.rpc.AccountRPCService?anyhost=true&application=account&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,freezeAll,queryAccountWithRate,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16852&side=provider&timestamp=1543804733464, dubbo://192.168.31.5:20840/com.account.rpc.AccountRPCService?anyhost=true&application=account.web&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,queryDetail,verfiyPass,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=16853&side=provider&timestamp=1543804731365]
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.refreshInvoker(RegistryDirectory.java:256)
+	at com.alibaba.dubbo.registry.integration.RegistryDirectory.notify(RegistryDirectory.java:221)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:410)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.doNotify(FailbackRegistry.java:288)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.notify(FailbackRegistry.java:274)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.access$400(ZookeeperRegistry.java:43)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry$3.childChanged(ZookeeperRegistry.java:171)
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2.handleChildChange(ZkclientZookeeperClient.java:108)
+	at org.I0Itec.zkclient.ZkClient$10.run(ZkClient.java:844)
+	at org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:72)

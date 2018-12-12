@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>My WebSocket</title>
+
+</head>
+
+<body>
+	Welcome
+	<br />
+	<input id="text" type="text" />
+	<button onclick="send()">Send</button>
+	<button onclick="closeWebSocket()">Close</button>
+	<div id="message"></div>
+</body>
+
+<script type="text/javascript">
+	var websocket = null;
+
+	//�жϵ�ǰ������Ƿ�֧��WebSocket
+	if ('WebSocket' in window) {
+		websocket = new WebSocket("ws://localhost:8082/websocket");
+	} else {
+		alert('Not support websocket')
+	}
+
+	//���ӷ�������Ļص�����
+	websocket.onerror = function() {
+		setMessageInnerHTML("error");
+	};
+
+	//���ӳɹ������Ļص�����
+	websocket.onopen = function(event) {
+		setMessageInnerHTML("open");
+		setInterval(function() {
+			//61, 66, 15, 0,8, 0, 0, 0
+			send();
+		}, 10000);
+	}
+
+	//���յ���Ϣ�Ļص�����
+	websocket.onmessage = function(event) {
+		console.log(event.data);
+		setMessageInnerHTML(event.data);
+	}
+
+	//���ӹرյĻص�����
+	websocket.onclose = function() {
+		setMessageInnerHTML("close");
+	}
+
+	//�������ڹر��¼��������ڹر�ʱ������ȥ�ر�websocket���ӣ���ֹ���ӻ�û�Ͽ��͹رմ��ڣ�server�˻����쳣��
+	window.onbeforeunload = function() {
+		websocket.close();
+	}
+
+	//����Ϣ��ʾ����ҳ��
+	function setMessageInnerHTML(innerHTML) {
+		document.getElementById('message').innerHTML += innerHTML + '<br/>';
+	}
+
+	//�ر�����
+	function closeWebSocket() {
+		websocket.close();
+	}
+
+	//������Ϣ
+	function send() {
+		var buffer  = new ArrayBuffer(8);
+		var dv = new DataView(buffer);
+		dv.setInt32(0, 999997); 
+		dv.setInt32(4, 8); 
+		websocket.send(buffer);
+	}
+</script>
+</html>

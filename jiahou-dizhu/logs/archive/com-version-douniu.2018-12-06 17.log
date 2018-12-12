@@ -1,0 +1,195 @@
+2018-12-06 17:00:52.405 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.zookeeper.ZookeeperRegistry:59 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.215/com.platform.rpc.CommissionRPCService?application=qipai-logic&category=providers,configurators,routers&dubbo=2.6.0&interface=com.platform.rpc.CommissionRPCService&methods=commissionCompute&pid=82616&revision=1.0.0&side=consumer&timestamp=1544083310232, urls: [empty://192.168.31.215/com.platform.rpc.CommissionRPCService?application=qipai-logic&category=providers&dubbo=2.6.0&interface=com.platform.rpc.CommissionRPCService&methods=commissionCompute&pid=82616&revision=1.0.0&side=consumer&timestamp=1544083310232], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:00:52.407 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.transport.netty.NettyChannel:59 -  [DUBBO] Close netty channel [id: 0x28cf179c, /192.168.31.215:63119 => /192.168.31.48:20887], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:00:52.408 [DubboSharedHandler-thread-1] INFO  c.a.d.r.protocol.dubbo.DubboProtocol:59 -  [DUBBO] disconected from /192.168.31.48:20887,url:dubbo://192.168.31.48:20887/com.platform.rpc.CommissionRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=3000&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.platform.rpc.CommissionRPCService&methods=commissionCompute&pid=82616&register.ip=192.168.31.215&remote.timestamp=1544082129200&revision=1.0.0&side=consumer&timestamp=1544083310232, dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:00:56.404 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.zookeeper.ZookeeperRegistry:59 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.215/com.qipai.rpc.GameLogRPCService?application=qipai-logic&category=providers,configurators,routers&dubbo=2.6.0&interface=com.qipai.rpc.GameLogRPCService&methods=queryByPage,save&pid=82616&revision=1.0.0&side=consumer&timestamp=1544083310251, urls: [empty://192.168.31.215/com.qipai.rpc.GameLogRPCService?application=qipai-logic&category=providers&dubbo=2.6.0&interface=com.qipai.rpc.GameLogRPCService&methods=queryByPage,save&pid=82616&revision=1.0.0&side=consumer&timestamp=1544083310251], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:00:56.406 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.zookeeper.ZookeeperRegistry:59 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.215/com.qipai.rpc.RobotInfoRPCService?application=qipai-logic&category=providers,configurators,routers&dubbo=2.6.0&interface=com.qipai.rpc.RobotInfoRPCService&methods=queryRunRobot,findGameInfo,getRobotInfo&pid=82616&revision=1.0.0&side=consumer&timestamp=1544083310291, urls: [empty://192.168.31.215/com.qipai.rpc.RobotInfoRPCService?application=qipai-logic&category=providers&dubbo=2.6.0&interface=com.qipai.rpc.RobotInfoRPCService&methods=queryRunRobot,findGameInfo,getRobotInfo&pid=82616&revision=1.0.0&side=consumer&timestamp=1544083310291], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:00:56.407 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.transport.netty.NettyChannel:59 -  [DUBBO] Close netty channel [id: 0x7a021f49, /192.168.31.215:63122 => /192.168.31.48:20821], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:00:56.407 [DubboSharedHandler-thread-1] INFO  c.a.d.r.protocol.dubbo.DubboProtocol:59 -  [DUBBO] disconected from /192.168.31.48:20821,url:dubbo://192.168.31.48:20821/com.qipai.rpc.GameLogRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=3000&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.qipai.rpc.GameLogRPCService&methods=queryByPage,clear,save&pid=82616&register.ip=192.168.31.215&remote.timestamp=1543915417236&revision=1.0.0&side=consumer&timestamp=1544083310251, dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:01:12.984 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.zookeeper.ZookeeperRegistry:59 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.215/com.platform.rpc.CommissionRPCService?application=qipai-logic&category=providers,configurators,routers&dubbo=2.6.0&interface=com.platform.rpc.CommissionRPCService&methods=commissionCompute&pid=82616&revision=1.0.0&side=consumer&timestamp=1544083310232, urls: [dubbo://192.168.31.48:20887/com.platform.rpc.CommissionRPCService?anyhost=true&application=proxy&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.platform.rpc.CommissionRPCService&methods=commissionCompute&pid=13368&side=provider&timestamp=1544082129200], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:01:12.987 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.transport.AbstractClient:59 -  [DUBBO] Successed connect to server /192.168.31.48:20887 from NettyClient 192.168.31.215 using dubbo version 2.6.0, channel is NettyChannel [channel=[id: 0x222343ea, /192.168.31.215:51027 => /192.168.31.48:20887]], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:01:12.987 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.transport.AbstractClient:59 -  [DUBBO] Start NettyClient BF-201806051332/192.168.31.215 connect to the server /192.168.31.48:20887, dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:01:21.089 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.zookeeper.ZookeeperRegistry:59 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.215/com.qipai.rpc.GameLogRPCService?application=qipai-logic&category=providers,configurators,routers&dubbo=2.6.0&interface=com.qipai.rpc.GameLogRPCService&methods=queryByPage,save&pid=82616&revision=1.0.0&side=consumer&timestamp=1544083310251, urls: [dubbo://192.168.31.48:20821/com.qipai.rpc.GameLogRPCService?anyhost=true&application=qipai&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.qipai.rpc.GameLogRPCService&methods=queryByPage,clear,save&pid=18700&side=provider&timestamp=1543915417236], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:01:21.090 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.transport.AbstractClient:59 -  [DUBBO] Successed connect to server /192.168.31.48:20821 from NettyClient 192.168.31.215 using dubbo version 2.6.0, channel is NettyChannel [channel=[id: 0x25594b78, /192.168.31.215:51043 => /192.168.31.48:20821]], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:01:21.090 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.transport.AbstractClient:59 -  [DUBBO] Start NettyClient BF-201806051332/192.168.31.215 connect to the server /192.168.31.48:20821, dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:01:21.092 [ZkClient-EventThread-29-192.168.31.3:2181] INFO  c.a.d.r.zookeeper.ZookeeperRegistry:59 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.215/com.qipai.rpc.RobotInfoRPCService?application=qipai-logic&category=providers,configurators,routers&dubbo=2.6.0&interface=com.qipai.rpc.RobotInfoRPCService&methods=queryRunRobot,findGameInfo,getRobotInfo&pid=82616&revision=1.0.0&side=consumer&timestamp=1544083310291, urls: [dubbo://192.168.31.48:20821/com.qipai.rpc.RobotInfoRPCService?anyhost=true&application=qipai&default.timeout=3000&dubbo=2.6.0&generic=false&interface=com.qipai.rpc.RobotInfoRPCService&methods=queryRunRobot,findGameInfo,getRobotInfo&pid=18700&side=provider&timestamp=1543915417273], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:12:09.040 [New I/O client worker #1-1] INFO  c.a.d.r.protocol.dubbo.DubboProtocol:59 -  [DUBBO] disconected from /192.168.31.245:20881,url:dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=82616&register.ip=192.168.31.215&remote.timestamp=1544060104782&revision=1.0.0&side=consumer&timestamp=1544083300880, dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:12:09.053 [New I/O client worker #1-2] INFO  c.a.d.r.protocol.dubbo.DubboProtocol:59 -  [DUBBO] disconected from /192.168.31.245:20840,url:dubbo://192.168.31.245:20840/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,verfiyPass,queryDetail,freezeAll,queryAccountWithRate,queryAccount,queryUserDrawal,invertBiz,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=82616&register.ip=192.168.31.215&remote.timestamp=1544060163484&revision=1.0.0&side=consumer&timestamp=1544083300880, dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:12:09.411 [DubboClientReconnectTimer-thread-2] INFO  c.a.d.r.transport.netty.NettyClient:59 -  [DUBBO] Close old netty channel [id: 0x02d172c7, /192.168.31.215:63105 :> /192.168.31.245:20881] on create new netty channel [id: 0x157875a7, /192.168.31.215:51797 => /192.168.31.245:20881], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:12:09.411 [DubboClientReconnectTimer-thread-2] INFO  c.a.d.r.transport.AbstractClient:59 -  [DUBBO] Successed connect to server /192.168.31.245:20881 from NettyClient 192.168.31.215 using dubbo version 2.6.0, channel is NettyChannel [channel=[id: 0x157875a7, /192.168.31.215:51797 => /192.168.31.245:20881]], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:12:09.474 [DubboClientReconnectTimer-thread-1] INFO  c.a.d.r.transport.netty.NettyClient:59 -  [DUBBO] Close old netty channel [id: 0x72ec16f8, /192.168.31.215:63110 :> /192.168.31.245:20840] on create new netty channel [id: 0x4712692a, /192.168.31.215:51800 => /192.168.31.245:20840], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:12:09.474 [DubboClientReconnectTimer-thread-1] INFO  c.a.d.r.transport.AbstractClient:59 -  [DUBBO] Successed connect to server /192.168.31.245:20840 from NettyClient 192.168.31.215 using dubbo version 2.6.0, channel is NettyChannel [channel=[id: 0x4712692a, /192.168.31.215:51800 => /192.168.31.245:20840]], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:14:09.042 [New I/O client worker #1-2] INFO  c.a.d.r.protocol.dubbo.DubboProtocol:59 -  [DUBBO] disconected from /192.168.31.245:20881,url:dubbo://192.168.31.245:20881/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,queryDetail,verfiyPass,findAccount,queryAccountWithRate,freezeAll,queryAccount,invertBiz,queryUserDrawal,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=82616&register.ip=192.168.31.215&remote.timestamp=1544060104782&revision=1.0.0&side=consumer&timestamp=1544083300880, dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:14:09.056 [New I/O client worker #1-3] INFO  c.a.d.r.protocol.dubbo.DubboProtocol:59 -  [DUBBO] disconected from /192.168.31.245:20840,url:dubbo://192.168.31.245:20840/com.account.rpc.AccountRPCService?anyhost=true&application=qipai-logic&check=false&codec=dubbo&default.timeout=30000&dispatcher=message&dubbo=2.6.0&generic=false&heartbeat=60000&interface=com.account.rpc.AccountRPCService&methods=queryRate,invertBizs,queryAccounts,findTotal,proxyDrawalSure,saveWithdrawCfg,findAccount,verfiyPass,queryDetail,freezeAll,queryAccountWithRate,queryAccount,queryUserDrawal,invertBiz,proxyDrawalCancle,queryProxyprofileByDay,queryChargeUsersByDay,changeTo,viewWithdrawCfg,queryUserBank,queryChargeNewUsersByDay,userChargeAvrge,queryChargeAmountByDay&pid=82616&register.ip=192.168.31.215&remote.timestamp=1544060163484&revision=1.0.0&side=consumer&timestamp=1544083300880, dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:14:09.454 [DubboClientReconnectTimer-thread-2] INFO  c.a.d.r.transport.netty.NettyClient:59 -  [DUBBO] Close old netty channel [id: 0x157875a7, /192.168.31.215:51797 :> /192.168.31.245:20881] on create new netty channel [id: 0x1f801ed7, /192.168.31.215:51931 => /192.168.31.245:20881], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:14:09.454 [DubboClientReconnectTimer-thread-2] INFO  c.a.d.r.transport.AbstractClient:59 -  [DUBBO] Successed connect to server /192.168.31.245:20881 from NettyClient 192.168.31.215 using dubbo version 2.6.0, channel is NettyChannel [channel=[id: 0x1f801ed7, /192.168.31.215:51931 => /192.168.31.245:20881]], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:14:09.510 [DubboClientReconnectTimer-thread-1] INFO  c.a.d.r.transport.netty.NettyClient:59 -  [DUBBO] Close old netty channel [id: 0x4712692a, /192.168.31.215:51800 :> /192.168.31.245:20840] on create new netty channel [id: 0x49d59fb8, /192.168.31.215:51934 => /192.168.31.245:20840], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:14:09.510 [DubboClientReconnectTimer-thread-1] INFO  c.a.d.r.transport.AbstractClient:59 -  [DUBBO] Successed connect to server /192.168.31.245:20840 from NettyClient 192.168.31.215 using dubbo version 2.6.0, channel is NettyChannel [channel=[id: 0x49d59fb8, /192.168.31.215:51934 => /192.168.31.245:20840]], dubbo version: 2.6.0, current host: 192.168.31.215
+2018-12-06 17:22:44.339 [nioEventLoopGroup-5-7] DEBUG com.version.common.util.LoggerUtil:22 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x3a866fc2, L:/192.168.31.215:34700 - R:/192.168.31.50:56048]
+CODE:999998[999998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+now: 1544088164339
+heartbeartTime: 5000
+
+2018-12-06 17:22:44.385 [pool-1-thread-7] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x3a866fc2, L:/192.168.31.215:34700 - R:/192.168.31.50:56048]]
+CODE:799999[799999]
+account: "100014"
+ticket: "GR35HYNMZ7FHZCQINTRLDTHAUCBCODOQZGQFUP27TH3KCMD6BKDANXEQTLLA4VASIUTQWJSCYELD7IH2ZVKPSVUDKM5G4DS5VFPE5SDLP6WDBUM24EKQ"
+
+-----------------------------------------------------------------
+
+
+2018-12-06 17:22:44.411 [pool-1-thread-7] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x3a866fc2, L:/192.168.31.215:34700 - R:/192.168.31.50:56048]
+CODE:799998[799998]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\347\231\273\351\231\206\346\210\220\345\212\237!"
+}
+
+2018-12-06 17:22:44.435 [pool-1-thread-7] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x3a866fc2, L:/192.168.31.215:34700 - R:/192.168.31.50:56048]]
+CODE:799997[799997]
+roomType: 1
+timesType: 3
+paramString: "{\"roomType\":1,\"isOpen\":true}"
+pipeiParam: "0"
+
+-----------------------------------------------------------------
+
+
+2018-12-06 17:22:44.441 [pool-1-thread-7] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x3a866fc2, L:/192.168.31.215:34700 - R:/192.168.31.50:56048]
+CODE:799996[799996]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\345\210\233\345\273\272\346\210\277\351\227\264\346\210\220\345\212\237"
+}
+readyTimer: 30000
+
+2018-12-06 17:22:44.443 [pool-1-thread-7] INFO  com.version.common.util.LoggerUtil:11 - 某人创建了房间
+2018-12-06 17:22:45.053 [pool-1-thread-7] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x3a866fc2, L:/192.168.31.215:34700 - R:/192.168.31.50:56048]]
+CODE:799975[799975]
+
+-----------------------------------------------------------------
+
+
+2018-12-06 17:22:45.053 [pool-1-thread-7] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x3a866fc2, L:/192.168.31.215:34700 - R:/192.168.31.50:56048]
+CODE:799974[799974]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\350\216\267\345\217\226\346\210\277\351\227\264\344\277\241\346\201\257\346\210\220\345\212\237"
+}
+roomInfo {
+  roomId: "9165707"
+  roomName: "100014\345\210\233\345\273\272\347\232\204\346\210\277\351\227\264"
+  roomerUniqueId: "100014"
+  controllers {
+    uniqueId: "100014"
+    nickName: "15196608712"
+    headImg: ""
+    ip: ""
+    health: 111111.0
+    sex: 1
+    robot: 0
+    watcher: 0
+    extendStr: ""
+  }
+  roomStatus: 0
+  posBrifes {
+    pos: 1
+    controllerUniqueId: "100014"
+    online: 1
+    ready: 0
+  }
+  posBrifes {
+    pos: 2
+  }
+  posBrifes {
+    pos: 3
+  }
+  posBrifes {
+    pos: 4
+  }
+  posBrifes {
+    pos: 5
+  }
+  posBrifes {
+    pos: 6
+  }
+  leftMatchCount: 2147483647
+  totalCount: 2147483647
+  maxPlayerNum: 6
+  currentPlayerNum: 1
+  yazhu: 500.0
+  readyTimer: 30000
+  gameId: 8884
+  roomType: 1
+  timesType: 3
+}
+
+2018-12-06 17:22:47.765 [pool-1-thread-8] INFO  com.version.common.util.LoggerUtil:11 - 
+----------------------------RECIEVED----------------------------
+FROM:TcpSocketClient [session=[id: 0x3a866fc2, L:/192.168.31.215:34700 - R:/192.168.31.50:56048]]
+CODE:799991[799991]
+
+-----------------------------------------------------------------
+
+
+2018-12-06 17:22:47.773 [pool-1-thread-8] INFO  com.version.common.util.LoggerUtil:11 - 
+服务器返回----------------------------SEND--------------------------------
+TO:[id: 0x3a866fc2, L:/192.168.31.215:34700 - R:/192.168.31.50:56048]
+CODE:799990[799990]
+
+-----------------------------------------------------------------
+
+
+
+
+
+result {
+  code: 200
+  success: true
+  msg: "\351\200\200\345\207\272\346\210\277\351\227\264\346\210\220\345\212\237"
+}
+

@@ -1,0 +1,4 @@
+package ProtoNet;
+option java_package = "com.version.protobuf.pb";
+import "MsgCode.proto";
+

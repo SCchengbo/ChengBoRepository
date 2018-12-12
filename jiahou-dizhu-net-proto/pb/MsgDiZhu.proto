@@ -1,0 +1,161 @@
+package ProtoNet;
+option java_package = "com.version.protobuf.pb";
+import "MsgLogic.proto";
+import "MsgCode.proto";
+
+enum DiZhuCode{
+  RES_NOTIFY_GAMESTART_8884=269999;//通知游戏开始	
+  RES_FAPAI_8884 =269998;//发牌
+  RES_NOTIFY_CURRENT_CTRLPOS_8884=269997;//更新轮次 倒计时
+  REQ_CHOOSE_MULTIPLE_8884=269996;// 抢地主请求
+  RES_CHOOSE_MULTIPLE_8884=269995; //抢地主返回
+  RES_NOTIFY_CHOOSE_MULTIPLE_8884=269994;// 广播该玩家抢地主
+  RES_NOTIFY_LANDLORD_8884=269993;// 通知本轮哪个玩家是地主
+  REQ_OUTCARDS_8884=269992;// 请求出牌
+  RES_OUT_CARDS_8884=269991;// 返回出牌操作
+  RES_NOTIFY_OUT_CARDS_8884=269990;// 广播该玩家出牌信息
+  REQ_SMALLCALCULATEPANEL_8884=269989;// 请求小结算
+  RES_SMALLCALCULATEPANEL_8884=269988;// 返回小结算
+  REQ_RECOVER_GAMESCEEN_8884=269987;// 请求中途恢复
+  RES_RECOVER_GAMESCEEN_8884=269986;// 返回中途恢复
+  REQ_TUOGUAN_8884=269985;// 请求托管
+  RES_TUOGUAN_8884=269984 ;//返回托管
+  RES_NOTIFY_TUOGUAN_8884=269983;// 广播托管
+}
+//RES_NOTIFY_GAMESTART_8884=269999 通知游戏开始	
+   message ResNotifyGameStart_8884{
+    required DiZhuRoomInfo_8884  diZhuRoomInfo = 1;//房间信息
+}
+  message DiZhuRoomInfo_8884{
+	required RoomInfo roomInfo=1;//房间基础信息
+}
+ //RES_FAPAI_8884 =269998
+  message ResFaPai_8884{
+    repeated CardInfo_8884 card=1;
+    optional string uid=2;
+    optional int32 lastNum=3;//剩余的数量
+ }
+ //RES_NOTIFY_CURRENT_CTRLPOS_8884=269997
+  message ResNotifyCurrentCtrlPos_8884{
+   optional int32  currentCtrlPos=1;//当前 操作
+   optional int32  ctrlTime=2;//操作倒计时
+   optional int32  checkOutCard=3;//检测是不是能出牌 要不起 则1 
+}
+//REQ_CHOOSE_MULTIPLE_8884=269996 抢地主请求
+message ReqChooseMultiple_8884{
+ required int32 multiple=1;//叫分的倍数 0 不抢 1-3 对应 1-3倍
+}
+//RES_CHOOSE_MULTIPLE_8884=269995 抢地主返回
+message ResChooseMultiple_8884{
+   required ResponseResult result = 1;
+}
+//RES_NOTIFY_CHOOSE_MULTIPLE_8884=269994 广播该玩家抢地主
+message ResNotifyChooseMultiple_8884{
+ required int32 multiple=1;//叫分倍数
+ optional string  uId=2;//叫分iD
+}
+//RES_NOTIFY_LANDLORD_8884=269993 通知本轮哪个玩家是地主
+message ResNotifyLandlord_8884{
+  required string landLordId=1;//地主玩家id
+  repeated CardInfo_8884 card=2;//桌面上剩余的地主牌
+}
+//REQ_OUTCARDS_8884=269992 请求出牌
+message ReqOutCards_8884{
+ repeated CardInfo_8884 cards=1;//当前出牌玩家出的牌
+ optional int32  cardType=2;//客户端检测出来的牌型 
+}
+//RES_OUT_CARDS_8884=269991 返回出牌操作
+message ResOutCards_8884{
+required ResponseResult result = 1;
+}
+//RES_NOTIFY_OUT_CARDS_8884=269990 广播该玩家出牌信息
+message ResNotifyOutCards_8884{
+ repeated CardInfo_8884  outCards=1;//出牌玩家打的牌
+ required int32   outCardsType=2;//出牌玩家的牌型
+ optional int32   allMultiple=3;//牌型总分数
+ optional int32   cardTypeMultiple=4;//当前牌型的分数
+ optional int32 lastCardNum=5;//当前玩家手牌剩余张数
+ optional string  uId=6;//出牌玩家id
+ optional int32   roundOver=7;//一圈结束 1表示 结束  0表示没结束 (默认值)
+}
+//REQ_SMALLCALCULATEPANEL_8884=269989 请求小结算
+message ReqSmallCalculatePanel_8884{
+	required string roomId = 1;//房间号
+	required int32 times = 2;//场次
+}
+//RES_SMALLCALCULATEPANEL_8884=269988 返回小结算
+message ResSmallCalculatePanel_8884{
+    required ResponseResult result = 1;//返回小结算面板结果
+	required SmallCalculatePanel_8884 smallCalculatePanel = 2;//结算面板
+}
+message SmallCalculatePanel_8884{
+    optional int32 diFen=1;//底分倍数
+	optional int32  cardMultiple=2;//牌型总倍数
+	repeated SmallCalController_8884 smallCalControllers = 3;
+	optional string  landLordId=4;//地主id
+	required  int32  winType=5;//输赢类型 1正常输赢 2春天 3 是反春
+	optional  int32  zhaDanMultiple=6;//炸弹倍数
+    optional  int32  publicMultiple=7;//公共倍数
+    optional  int32  chunTianMultiple=8;//春天倍数	
+}
+message SmallCalController_8884{
+	required int32 winScore = 1;//正数赢  负数输
+	optional string uniqueId = 2;//该玩家id
+	required int32 allScore = 3;//总分
+	required string headImg = 4;//头像
+	required string nick = 5;//昵称
+}
+message CardInfo_8884{
+ required int32 cardId=1;//牌的id 花色*100+点数 例如402 表示 黑桃 2 
+ required int32  cardNum=2;//牌的点数 
+ required int32 cardColor=3;//牌的花色 黑红梅方 4->1
+}
+//REQ_RECOVER_GAMESCEEN_8884=269987 请求中途恢复
+ message ReqRecoverGameSceen_8884{
+
+}
+ //RES_RECOVER_GAMESCEEN_8884=269986 返回中途恢复
+message ResRecoverGameSceen_8884{
+	required ResponseResult result = 1;//返回获取游戏房间信息结果
+	optional int32 gameId = 2;//当前所在游戏id
+	optional int32 roomStatus = 3;//房间状态10 准备状态 11游戏中
+	optional RoomInfo roomInfo=4;//房间基础信息(准备状态返回当前房间基础信息)
+    required ResNotifyCurrentCtrlPos_8884 currentCtrlPos=5;//当前操作玩家的位置
+	optional string landlordId=6;//地主玩家的id
+	optional int32 allMultiple=7;//当前总共的倍数
+	repeated players_8884 playersMsg=8;//其余玩家的信息
+	repeated  CardInfo_8884 currentCtrlCard=9;//当前桌面上操作的牌
+	repeated  CardInfo_8884  selfCards=10;//掉线玩家自己的手牌
+	repeated  CardInfo_8884   lastCard=11;//底牌
+	optional  string       outCarduId =12;//出牌玩家id 
+	repeated  TuoGuan_8884     tuoGuanCtrl=13;//托管操作
+	repeated OutCardInfo_8884 outCardInfo=14;
+	optional  int32    roundOver =15;//一轮是不是结束
+}
+ message players_8884{
+ optional int32  lastCardNum=1;//剩余手牌数量
+ optional int32   allScore=2;//当前玩家的总分012
+ required string  uId=3;//当前玩家的id
+ repeated CardInfo_8884 outCards=4;//当前打出去的牌
+}
+//REQ_TUOGUAN_8884=269985 请求托管
+message ReqTuoGuan_8884{
+required int32 tuoGuanCtrl=1;//1表示 正常  2表示 托管
+}
+//RES_TUOGUAN_8884=269984 返回托管
+message ResTuoGuan_8884{
+  required ResponseResult result = 1;
+}
+// RES_NOTIFY_TUOGUAN_8884=269983;// 广播托管 
+message ResNotifyTuoGuan_8884{
+  optional string  tuoGuanId=1;
+  optional int32  tuoGuanCtrl=2;
+}
+message OutCardInfo_8884{
+  repeated CardInfo_8884 cardInfo=1;//每个玩家 操作的那一手牌
+  optional string  outCardId=2;//对应操作的牌的玩家的id
+}
+message TuoGuan_8884{
+  required string  uId=1;
+  optional int32  tuoGuanCtrl=2;
+}

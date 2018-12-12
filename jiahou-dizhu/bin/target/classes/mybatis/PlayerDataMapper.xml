@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.version.dao.PlayerDataMapper">
+	<insert id="insert" parameterType="com.version.entity.logic.PlayerData">
+		insert into
+		t_player_data(account,record_create_time,record_update_time,nick,sex,head,head_url,lv,extend_str)
+		values(#{account},#{recordCreateTime},#{recordUpdateTime},#{nick},#{sex},#{sex},#{headUrl},#{lv},#{extendStr})
+	</insert>
+
+
+	<update id="update">
+		update t_player_data set
+		record_update_time=#{recordUpdateTime},nick=#{nick},sex=#{sex},head=#{head},head_url=#{headUrl},lv=#{lv},extend_str=#{extendStr}
+		where
+		account=#{account}
+	</update>
+
+
+
+	<select id="loadPlayerData" resultType="com.version.entity.logic.PlayerData">
+		select * from
+		t_player_data
+		where
+		account=#{account}
+	</select>
+
+</mapper>

@@ -1,0 +1,298 @@
+//当前协议版本4.0.0
+
+package ProtoNet;
+option java_package = "com.version.protobuf.pb";
+
+
+enum JinHuaCode{
+	//////////////////////////////////金花////////////////////////////////
+	RES_NOTIFY_GAMESTART_8855=219999;//通知游戏开始
+	RES_NOTIFY_CTRL_POS_8855=219996;//通知游戏操作玩家的位置
+	REQ_BET_CTRL_8855=219995;//玩家跟注
+	RES_BET_CTRL_8855=219994;//返回跟注请求
+	RES_NOTIFY_BET_CTRL_8855=219993;//广播玩家跟注操作
+	REQ_KANPAI_CTRL_8855=219992;//玩家请求看牌
+	RES_KANPAI_CTRL_8855=219991;//返回看牌请求
+	RES_NOTIFY_KANPAI_CTRL_8855=219990;//广播玩家看牌操作
+	REQ_COMPARE_CARD_CTRL_8855=219989;//比牌请求
+	RES_COMPARE_CARD_CTRL_8855=219988;//返回比牌请求
+	RES_NOTIFY_COMPARE_CARD_CTRL_8855=219987;//广播玩家比牌
+	REQ_LOST_CARD_8855=219986;//丢牌（弃牌）
+	RES_LOST_CARD_8855=219985;//返回比牌请求
+	RES_NOTIFY_LOST_CARD_8855=219984;//广播玩家弃牌操作
+	REQ_SMALL_CALCULATE_PANEL_8855 =219983;//请求小结算面板
+	RES_SMALL_CALCULATE_PANEL_8855=219982;//返回请求小结算面板
+	REQ_BIG_CALCULATE_PANEL_8855 =219981;//请求大结算面板
+	RES_BIG_CALCULATE_PANEL_8855=219980;//返回大结算面板
+	REQ_RECOVER_GAMESCEEN_8855 =219979;//请求恢复场景
+	RES_RECOVER_GAMESCEEN_8855=219978;//返回恢复场景
+	REQ_ADD_BET_CTRL_8855=219977;//加注请求
+	RES_ADD_BET_CTRL_8855=219976;//返回加注请求
+	RES_NOTIFY_ADD_BET_CTRL_8855=219975;//广播玩家加注操作
+	REQ_GEN_TO_DI_CTRL_8855=219974;//请求跟到底
+	RES_GEN_TO_DI_CTRL_8855=219973;//返回跟到底
+	RES_NOTIFY_UPDATE_LUN_8855=219972;//更新轮数
+	REQ_STUD_8855=219971;//请求梭哈
+	RES_STUD_8855=219970;//返回梭哈
+	RES_NOTIFY_STUD_8855=219969;//广播梭哈
+}
+
+enum LongHuDouCode{
+	//////////////////////////////////龙虎斗////////////////////////////////
+	REQ_WANNA_BANKER_LIST_8882=249999;//上庄列表请求
+	RES_WANNA_BANKER_LIST_8882=249998;//上庄列表返回
+    REQ_WANNA_BANKER_8882=249997;//上下庄请求
+    RES_WANNA_BANKER_8882=249996;//上下庄返回
+	RES_GAMESTART_8882=249995;//游戏开始
+   	REQ_BET_8882=249994;//下注请求
+   	RES_BET_8882=249993;//下注返回
+	REQ_SMALLGAMEOVER_8882=249988;//小结算请求
+    RES_SMALLGAMEOVER_8882=249987;//小结算返回
+	REQ_RECOVER_GAMESCEEN_8882 =249983;//请求恢复游戏场景数据
+	RES_RECOVER_GAMESCEEN_8882 =249982;//返回恢复游戏场景数据 
+	REQ_CONTROLLER_LIST_8882=249980;//玩家列表请求
+	RES_CONTROLLER_LIST_8882=249979;//玩家列表返回
+	REQ_GAEM_RECORD_LIST_8882=249978;//游戏记录请求
+	RES_GAEM_RECORD_LIST_8882=249977;//游戏记录返回
+	REQ_SOFA_8882=249976;//沙发请求
+	RES_SOFA_8882=249975;//沙发返回
+	RES_BANKER_UPD_8882=249974;//换庄通知
+	REQ_CHECK_TIME_8882 =249973;//请求校对时间
+	RES_CHECK_TIME_8882 =249972;//返回时间校对
+	RES_TICKET_OUT_8882 =249971;//通知踢出房间
+}
+
+
+
+enum DouniuCode{
+	//////////////////////////////////抢庄斗牛////////////////////////////////
+	REQ_QIANGZHUANG_8881 =239998;//请求抢庄
+	RES_QIANGZHUANG_8881 =239997;//返回抢庄
+	RES_NOTIFY_SOMEONE_QIANGZHUANG_8881 =239996;//返回通知某人抢庄
+	RES_NOTIFY_GAME_START_8881 =239995;//返回通知游戏开始
+	RES_NOTIFY_DISPACH_CARD_8881 =239994;//返回通知发手牌
+	REQ_YAZHU_8881 =239992;//请求押注
+	RES_YAZHU_8881 =239991;//返回押注
+	RES_NOTIFY_SOMEONE_YAZHU_8881 =239990;//返回通知某人押注
+	RES_NOTIFY_DISPACH_LEFT_CARD_8881 =239989;//返回通知发剩余的牌
+	REQ_LIANG_PAI_8881 =239988;//请求亮牌
+	RES_LIANG_PAI_8881 =239987;//返回亮牌
+	RES_NOTIFY_SOMEONE_LIANG_PAI_8881 =239986;//返回通知某人亮牌
+	REQ_SMALL_CALCULATE_PANEL_8881 =239985;//请求小结算面板
+	RES_SMALL_CALCULATE_PANEL_8881 =239984;//返回小结算面板
+	REQ_BIG_CALCULATE_PANEL_8881 =239983;//请求大结算面板
+	RES_BIG_CALCULATE_PANEL_8881 =239982;//返回大结算面板
+	REQ_RECOVER_GAMESCEEN_8881 =239981;//请求恢复场景
+	RES_RECOVER_GAMESCEEN_8881 =239980;//返回恢复场景
+	RES_TUOGUAN_8881=239979;// 通知该玩家托管状态
+}
+
+enum WabaoziCode{
+	//////////////////////////////////推筒子////////////////////////////////
+	REQ_WANNA_BANKER_LIST_8879=309999;//上庄列表请求
+	RES_WANNA_BANKER_LIST_8879=309998;//上庄列表返回
+    REQ_WANNA_BANKER_8879=309997;//上下庄请求
+    RES_WANNA_BANKER_8879=309996;//上下庄返回
+	RES_GAMESTART_8879=309995;//游戏开始
+   	REQ_BET_8879=309994;//下注请求
+   	RES_BET_8879=309993;//下注返回
+	
+	REQ_SMALLGAMEOVER_8879=309988;//小结算请求
+    RES_SMALLGAMEOVER_8879=309987;//小结算返回
+	REQ_RECOVER_GAMESCEEN_8879 = 309983;//请求恢复游戏场景数据
+	RES_RECOVER_GAMESCEEN_8879 = 309982;//返回恢复游戏场景数据 
+	REQ_CONTROLLER_LIST_8879=309980;//玩家列表请求
+	RES_CONTROLLER_LIST_8879=309979;//玩家列表返回
+	REQ_GAEM_RECORD_LIST_8879=309978;//游戏记录请求
+	RES_GAEM_RECORD_LIST_8879=309977;//游戏记录返回
+	REQ_SOFA_8879=309976;//沙发请求
+	RES_SOFA_8879=309975;//沙发返回
+	RES_BANKER_UPD_8879=309974;//换庄通知
+	REQ_CHECK_TIME_8879 = 309973;//请求校对时间
+	RES_CHECK_TIME_8879 = 309972;//返回时间校对
+	RES_TICKET_OUT_8879 = 309971;//通知踢出房间
+}
+
+enum GameCode{	
+	/////////////////////////////////COMMON////////////////////////////////
+	RES_NOTIFY_RELOGIN = 999989;//通知客户端重新登录
+	RES_NOTIFY_DISSOLUTION_CONNECT = 999990;//返回通知释放当前链接
+	RES_NOTIFY_CHAT_ARRIVE = 999991;//返回通知聊天消息到达
+	RES_CHAT = 999992;//返回聊天结果
+	REQ_CHAT = 999993;//请求聊天;
+	RES_NOTIFY_BE_KICK_OUT = 999994;//返回通知被T除链接
+	RES_EXCEPTION_CATCH = 999995;//返回异常捕获
+	RES_HEART_BEAT = 999996;//返回心跳包
+	REQ_HEART_BEAT = 999997;//请求心跳包
+	RES_CONNECT_CREATE = 999998;//返回链接建立成功
+	RES_NOTIFY_ALERT = 999999;//返回通知提示信息
+
+	//////////////////////////////////GATE_SERVER////////////////////////////////
+	REQ_GATE_LOGIN = 899999;//请求gate服务器登陆
+	RES_GATE_LOGIN = 899998;//返回gate服务器登陆
+	REQ_GET_ACCOUNTINFO = 899997;//请求获取账号信息	
+	RES_GET_ACCOUNTINFO = 899996;//返回获取账号信息
+	REQ_GET_GAMEZONEINFO_LIST = 899995;//请求获取游戏信息列表
+	RES_GET_GAMEZONEINFO_LIST = 899994;//返回获取游戏信息列表
+	REQ_GET_GAMEZONE_DETAIL = 899993;//请求获取指定游戏内厅信息
+	RES_GET_GAMEZONE_DETAIL = 899992;//返回获取指定游戏内厅信息
+	REQ_JOIN_LOGIC_GAMEROOM = 899991;//请求加入逻辑服务器游戏房间
+	RES_JOIN_LOGIC_GAMEROOM = 899990;//返回加入逻辑服务器游戏房间
+	REQ_QUICK_JOIN_GAMEROOM = 899989;//请求快速加入游戏房间
+	RES_QUICK_JOIN_GAMEROOM = 899988;//返回快速加入游戏房间结果
+	RES_NOTIFY_BROAD_PLAT_MARQUEE = 899987;//返回通知广播平台跑马灯
+	RES_NOTIFY_SELF_DATA_CHANGE = 899986;//返回通知自身数据改变
+	REQ_GET_ROOMBRIFE_LIST = 899985;//请求获取房间简略信息列表(金币场该接口有数据)
+	RES_GET_ROOMBRIFE_LIST = 899984;//返回获取房间简略信息列表(金币场该接口有数据)
+	REQ_GAME_ROOM_LIST = 899975;//请求房间列表(金币场)
+	RES_GAME_ROOM_LIST = 899974;//返回房间列表(金币场)
+	REQ_CURRENCY_CHANGE = 899973;//请求货币互转
+	RES_CURRENCY_CHANGE = 899972;//返回货币互转
+	REQ_CURRENCY_FREEZE = 899971;//请求锁定
+	RES_CURRENCY_FREEZE = 899970;//返回锁定
+	
+	//////////////////////////////////LOGIC_SERVER////////////////////////////////
+	REQ_LOGIC_LOGIN = 799999;//请求logic登陆
+	RES_LOGIC_LOGIN = 799998;//返回logic登陆
+	REQ_CREATE_GAMEROOM = 799997;//请求创建房间
+	RES_CREATE_GAMEROOM = 799996;//返回创建房间结果
+	RES_NOTIFY_GAMEROOM_CREATE = 799995;//通知房间被创建
+	REQ_JOIN_GAMEROOM = 799994;//请求加入游戏房间
+	RES_JOIN_GAMEROOM = 799993;//返回加入游戏房间
+	RES_NOTIFY_SOMEONE_JOIN_GAMEROOM = 799992;//通知某人加入游戏房间
+	REQ_EXIT_GAMEROOM = 799991;//请求主动退出游戏房间
+	RES_EXIT_GAMEROOM = 799990;//返回主动退出游戏房间结果
+	RES_NOTIFY_SOMEONE_EXIT_GAMEROOM = 799989;//通知某人退出游戏房间
+	REQ_GAME_READY = 799988;//请求准备游戏
+	RES_GAME_READY = 799987;//返回准备游戏结果
+	
+	REQ_DISSOLUTION_GAMEROOM = 799983;//请求解散房间
+	RES_DISSOLUTION_GAMEROOM = 799982;//返回解散房间结果
+	RES_NOTIFY_SOMEONE_REQ_DISSOLUTION_GAMEROOM = 799981;//返回通知某人请求解散房间
+	REQ_AGREE_DISSOLUTION_GAMEROOM = 799980;//请求同意解散房间
+	RES_AGREE_DISSOLUTION_GAMEROOM = 799979;//返回同意解散房间结果
+	RES_NOTIFY_SOMEONE_AGREE_DISSOLUTION_GAMEROOM = 799978;//返回通知某人同意解散房间
+	RES_NOTIFY_GAMEROOM_DISSOLUTION = 799977;//返回通知游戏房间解散
+	RES_NOTIFY_GAMEOVER = 799976;//返回通知游戏结束
+	REQ_GET_ROOM_INFO = 799975;//请求获取游戏房间信息
+	RES_GET_ROOM_INFO = 799974;//返回获取游戏房间信息结果
+	RES_NOTIFY_SOMEONE_GAME_READY = 799973;//返回通知某人游戏准备状态
+	REQ_CHANGE_ONLINE_STATUS = 799972;//请求改变在线状态
+	RES_CHANGE_ONLINE_STATUS = 799971;//返回改变在线状态结果
+	RES_NOTIFY_SOMEONE_CHANGE_ONLINE_STATUS = 799970;//返回通知某人改变在线状态
+	RES_NOTIFY_BIG_CALCULATE_PANEL = 799969;//返回通知大结算面板
+	REQ_CORRECT_TIMER = 799966;//请求矫正倒计时
+	RES_CORRECT_TIMER = 799965;//返回矫正倒计时
+	REQ_QUICK_CHANGE_ROOM = 799964;//请求快速换桌(金币模式该接口有效)
+	RES_QUICK_CHANGE_ROOM = 799963;//返回快速换桌(金币模式该接口有效)
+	RES_NOTIFY_SOMEONE_CHANGE_ROBOT = 799962;//返回通知某人改变机器人状态
+	RES_NOTIFY_CHANGE_TO_OLDROOM = 799961;//返回通知跳转到老的房间(进行加入(快速加入和加入都可能返回该消息))
+	REQ_SIT_DOWN = 799960;//坐下
+	RES_SIT_DOWN = 799959;//坐下返回值
+	RES_NOTIFY_SOMEONE_SIT_DOWN = 799958;//坐下广播
+	REQ_STAND_UP = 799957;//站起
+	RES_STAND_UP = 799956;//站起返回
+	RES_NOTIFY_SOMEONE_STAND_UP = 799955;//站起来广播
+	RES_NOTIFY_SOMEONE_ENTER_CHARGE = 799954;//返回通知某人进入到充值阶段
+	RES_NOTIFY_ACCOUNTS_CHANGE = 799953;//返回通知账户信息改变
+	RES_NOTIFY_CHARGE_OVER = 799952;//返回通知充值完成
+	REQ_WATCHER_LIST = 799951;//请求无座位观战者列表
+	RES_WATCHER_LIST = 799950;//返回无座位观战者列表
+	REQ_LOGIC_SERVER_TIME = 799946;//请求逻辑服服务器时间
+	RES_LOGIC_SERVER_TIME = 799945;//请求逻辑服服务器时间
+	
+	
+	//////////////////////////////////LOGIC_WATCHER////////////////////////////////
+	REQ_SEAT_DOWN = 799799;//请求坐下
+	RES_SEAT_DOWN = 799798;//返回坐下结果
+	REQ_BE_WATHER = 799797;//请求成为观战者
+	RES_BE_WATHER = 799796;//请求成为观战者
+	RES_NOTIFY_ADD_WATHER = 799795;//通知增加观战者
+	RES_NOTIFY_REMOVE_WATHER = 799794;//通知减少观战者
+
+}
+
+message ResponseResult{
+	required int32 code = 1;//返回状态码
+	required bool success = 2;//成功状态
+	optional string msg = 3;//失败原因
+}
+
+message PlayerAccount{
+	optional int32 type = 1;//账户类型1：携带金币 2：冻结金币 3：总金币
+	optional double count = 2;//账户数量
+}
+
+//RES_NOTIFY_ALERT = 999999;//返回通知提示信息
+message ResNotifyAlert{
+	required string msg = 1;//提示信息
+	required string extendStr = 2;//额外参数
+}
+
+//RES_NOTIFY_DISSOLUTION_CONNECT = 999990;//返回通知释放当前链接
+message ResNotifyDissolutionConnect{
+	optional int32 gameId = 1;//游戏id
+	required int32 type = 2;//类型  1表示逻辑服金币场长时间未准备被T除房间
+	optional string msg = 3;//消息提示
+}
+
+//RES_NOTIFY_CHAT_ARRIVE = 999991;//返回通知聊天消息到达
+message ResNotifyChatArrive{
+	required string msgId = 1;//聊天消息唯一id
+	required int32 msgType = 2;//聊天消息类型
+	required string msg = 3;//聊天消息
+	required int32 chanel = 4;//聊天通道
+	required int64 msgCreateTime = 5;//聊天消息生成时间
+	required string fromUniqueId = 6;//来自消息者的唯一id
+	optional int32 pos = 7;//发起聊天的玩家在房间里的位置（仅当玩家在游戏房间里面聊天时有该参数,处于大厅的玩家收到该参数不做处理）
+}
+
+
+//RES_CHAT = 999992;//返回聊天结果
+message ResChat{
+	required ResponseResult result = 1;//返回结果
+}
+
+
+//REQ_CHAT = 999993;//请求聊天;
+message ReqChat{
+	required int32 msgType = 1;//聊天消息类型  0,txt 1,AAC语音  2,快捷聊天
+	required string msg = 2;//0为玩家输入的文字信息  1为上传aac语音后的url链接  2为客户端配置表中的配置id
+	required int32 chanel = 3;//聊天通道  1平台 2世界 3房间 4私聊 
+	optional string toUniqueId = 4;//对方的账号(私聊必传)
+}
+
+
+
+
+
+//RES_NOTIFY_BE_KICK_OUT = 999994;//返回通知被T除链接
+message ResNotifyBeKickOut{
+}
+
+
+//RES_EXCEPTION_CATCH = 999995;//返回异常捕获
+message ResExceptionCatch{
+	required string msg = 1;
+}
+
+
+
+//RES_CONNECT_CREATE = 999998//返回链接建立成功
+message ResConnectCreat{
+	required int64 now = 1;//服务器当前时间
+	required int64 heartbeartTime = 2;//心跳检测间隔
+}
+
+//REQ_HEART_BEAT = 999997//请求心跳包
+message ReqHeartBeat{
+}
+
+//RES_HEART_BEAT = 999996;//返回心跳包
+message ResHeartBeat{
+	required int64 time = 1;//服务器当前时间
+}
+
+//RES_NOTIFY_RELOGIN = 999989;//通知客户端重新登录
+message ResNotifyRelogin{
+}

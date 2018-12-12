@@ -1,0 +1,127 @@
+//当前协议版本1.6.0
+
+
+package ProtoNet;
+option java_package = "com.version.protobuf.pb";
+import "MsgCode.proto";
+import "MsgGate.proto";
+message ItemInfo{
+	required int32 itemId = 1;//道具id
+	required int32 num = 2;//道具数量
+}
+
+message MatchSignInfo{
+	required int32 matchConfigId = 1;//比赛配置id
+	required string matchName = 2;//比赛名称
+	required string matchBigName = 3;//比赛大名称
+	required string matchDesc = 4;//比赛描述
+	required int32 maxPlayer = 5;//最大报名参赛人数限制
+	required int32 currentPlayerNum = 6;//当前报名参赛人数
+	required int64 signBeginTime = 7;//报名开始时间
+	required int64 duringTime = 8;//报名持续时间
+	required int64 matchBeginTime = 9;//比赛开始时间
+	repeated ItemInfo rewardInfos = 10;//奖励信息
+	repeated ItemInfo costInfos = 11;//消耗信息
+	required string randId = 12;//报名比赛场生成的随机唯一id
+	optional int32 selfSignUp = 13;//自己是否已经报名0未报名 1已报名
+	required int32 times = 14;//在这里始终为第一轮
+	required string from=15;//X进Y  30进15   from=30
+	required string to = 16;//x进Y  30进15   to=15
+	required int32 isStar = 17;//比赛是否已经开始 0未开始  1已开始
+}
+
+
+//REQ_GET_MATCH_LIST = 699999;//请求获取可报名列表
+message ReqGetMatchList{
+	required int32 gameId = 1;//游戏类型
+}
+
+//RES_GET_MATCH_LIST = 699998;//返回获取可报名列表
+message ResGetMatchList{
+	required ResponseResult result = 1;
+	repeated MatchSignInfo matchSignInfos = 2;//比赛报名信息
+}
+
+//REQ_SIGNUP_MATCH=699997;//请求报名比赛
+message ReqSignUpMatch{
+	required int32 matchId = 1;//比赛配置id
+	required string randId = 2;//报名比赛场生成的随机唯一id
+}
+
+//RES_SIGNUP_MATCH = 699996;//返回报名比赛结果
+message ResSignUpMatch{
+	required ResponseResult result = 1;
+	optional int32 matchConfigId = 2;//报名成功的configId
+	optional string randId = 3;//当场比赛的randId
+}
+
+
+//RES_NOTIFY_ENTER_MATCH = 699995;//返回通知进入比赛
+message ResNotifyEnterMatch{
+	required string roomId = 1;//房间id
+	required string roomName = 2;//房间名称
+	required string roomerUniqueId = 3;//房主id
+	required string roomerNickName = 4;//房主昵称
+	required string roomerHeadImg = 5;//头像
+	required int32 roomerHeadType = 6;//本地资源头像类型
+	required int32 roomType = 7;//房间类型(这里只会是金币场类型)
+	required ServerInfoIpsSafeDetail serverInfo = 8;//房间所在线路信息 
+	required int32 times = 9;//当前轮次
+	required int32 gameId = 10;//游戏id
+	required int32 timesType = 11;//场次id
+	required string from=12;//X进Y  30进15   from=30
+	required string to = 13;//x进Y  30进15   to=15
+}
+
+//REQ_CANLE_SIGN_MATCH = 699994;//请求取消报名
+message ReqCanleSignMatch{
+	required int32 matchId = 1;//比赛配置id
+	required string randId = 2;//报名比赛场生成的随机唯一id
+}
+
+//RES_CANLE_SIGN_MATCH = 699993;//请求取消报名
+message ResCanleSignMatch{
+	required ResponseResult result = 1;
+	optional int32 matchConfigId = 2;//报名成功的configId
+	optional string randId = 3;//当场比赛的randId
+}
+
+//RES_NOTIFY_MATCHROOM_WAITTING_CHANGE = 699992;//通知比赛房间等待状态变化
+message ResNotifyMatchRoomWattingChange{
+	required string roomId=1;
+	required int32 gameId = 2;
+	required int32 roomType = 3;
+	required int32 timesType = 4;
+	required int32 waitting = 5;
+	required string randId = 6;
+	required int32 times = 7;//当前轮次
+	required string from=8;//X进Y  30进15   from=30
+	required string to = 9;//x进Y  30进15   to=15
+}
+
+
+//RES_NOTIFY_TIMES_OVER = 699991;//通知当前轮次结束
+message ResNotifyTimesOver{
+	required int32 matchConfigId = 1;
+	required int32 gameId = 2;
+	required string randId = 3;
+	required int32 times = 4;//当前轮次
+	required string from=5;//X进Y  30进15   from=30
+	required string to = 6;//x进Y  30进15   to=15
+	required int32 selfRank = 7;//自己当前的排名
+	required int32 taotai = 8;//是否被淘汰   0 否  1是(客户端收到自己被淘汰，不再请求699990继续比赛)
+	required int32 matchOver = 9;//整个比赛是否解散 0 否 1是
+}
+
+
+//REQ_CONTINUE_MATCH = 699990;//请求继续比赛
+message ReqContinueMatch{
+	required int32 matchConfigId = 1;
+	required int32 gameId = 2;
+	required string randId = 3;
+}
+
+//RES_CONTINUE_MATCH = 699989;//返回继续比赛结果
+message ResContinueMatch{
+	required ResponseResult result = 1;
+}

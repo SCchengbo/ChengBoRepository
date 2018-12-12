@@ -1,0 +1,37 @@
+//当前协议版本1.6.0
+
+package ProtoNet;
+option java_package = "com.version.protobuf.pb";
+import "MsgCode.proto";
+import "MsgGate.proto";
+import "MsgLogic.proto";
+
+
+//REQ_SEAT_DOWN = 799799;//请求坐下
+message ReqSeatDown{
+}
+
+//RES_SEAT_DOWN = 799798;//返回坐下结果
+message ResSeatDown{
+	required ResponseResult result = 1;
+}
+
+//REQ_BE_WATHER = 799797;//请求成为观战者
+message ReqBeWather{
+}
+
+//RES_BE_WATHER = 799796;//返回成为观战者
+message ResBeWather{
+	required ResponseResult result = 1;
+}
+
+
+//RES_NOTIFY_ADD_WATHER = 799795;//通知增加观战者
+message ResNotifyAddWather{
+	required SdkController sdkController = 1;
+}
+
+//RES_NOTIFY_REMOVE_WATHER = 799794;//通知减少观战者
+message ResNotifyRemoveWather{
+	required SdkController sdkController = 1;
+}

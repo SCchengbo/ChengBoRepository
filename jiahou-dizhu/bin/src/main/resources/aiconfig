@@ -1,0 +1,15 @@
+qiangZhuangMultipleConfig1=1_21,40!2_9,20!3_0,8!0_41,100
+qiangZhuangMultipleConfig2=1_0,10!2_11,40!3_41,100
+qiangZhuangMultipleConfig3=1_9,20!2_21,50!3_51,100!0_0,8
+qiangZhuangMultipleConfig4=1_11,30!2_31,60!3_61,100!0_0,10
+
+betMultipleConfig1=1_31,100!2_15,30!3_6,15!4_0,5
+betMultipleConfig2=1_200,1000!2_0,10!3_11,30!4_31,60!5_61,100
+betMultipleConfig3=1_20,10!2_11,25!3_26,45!4_46,70!5_71,100
+betMultipleConfig4=1_71,100!2_46,70!3_26,45!4_11,25!5_0,10
+
+
+liangPaiConfig1=3000_0,40!4500_41,70!5000_71,100
+liangPaiConfig2=3000_0,60!4500_61,70!5000_71,100
+liangPaiConfig3=3000_0,55!4500_56,80!5000_81,100
+liangPaiConfig4=3000_0,70!4500_71,80!5000_81,100

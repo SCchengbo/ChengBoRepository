@@ -1,0 +1,79 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.2.RELEASE</version>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>jh.dizhu.parent</groupId>
+	<artifactId>jh-dizhu-parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>jiahou-dizhu-protobuf</module>
+		<module>jiahou-dizhu</module>
+	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com-version</groupId>
+				<artifactId>com-version-protobuf</artifactId>
+				<version>4.0.0</version>
+			</dependency>
+			<dependency>
+				<groupId>com-version</groupId>
+				<artifactId>com-version-logic-common</artifactId>
+				<version>4.0.0</version>
+			</dependency>
+			<dependency>
+				<groupId>com.google.protobuf</groupId>
+				<artifactId>protobuf-java</artifactId>
+				<version>2.6.1</version>
+			</dependency>
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>jiahou-dizhu-protobuf</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java -->
+
+		</dependencies>
+	</dependencyManagement>
+
+	<!-- 对本项目下的公共参数做定义 -->
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+	<!-- 假如没有私服 ，则 本地仓库找不到，则访问中心仓库 假如有私服 ：访问顺序 首先访问本地仓库 本地仓库没有，则访问私服仓库 私服仓库也没有，则访问中心仓库 -->
+	<!-- 加载的是 第三方项目使用的jar包 -->
+	<repositories>
+		<repository>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<id>alimaven</id>
+			<name>aliyun maven</name>
+			<url>http://maven.jiahou.com/repository/maven-public/</url>
+		</repository>
+	</repositories>
+	<!-- 加载的是maven生命周期插件的jar包 -->
+	<pluginRepositories>
+		<pluginRepository>
+			<releases>
+				<updatePolicy>never</updatePolicy>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<id>maven-releases</id>
+			<name>maven-releases</name>
+			<url>http://maven.jiahou.com/repository/maven-releases/</url>
+		</pluginRepository>
+	</pluginRepositories>
+</project>

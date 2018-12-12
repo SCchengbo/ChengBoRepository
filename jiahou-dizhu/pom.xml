@@ -1,0 +1,121 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>jh.dizhu.parent</groupId>
+		<artifactId>jh-dizhu-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>jiahou-dizhu</artifactId>
+
+	<dependencies>
+		<dependency>
+
+			<groupId>com-version</groupId>
+			<artifactId>com-version-logic-common</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>com-version</groupId>
+					<artifactId>com-version-protobuf</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>jiahou-dizhu-protobuf</artifactId>
+		</dependency>
+
+
+	</dependencies>
+
+
+	<!-- <build> <finalName>jiahou-feibi-douniu</finalName> <plugins> <plugin> 
+		<groupId>org.springframework.boot</groupId> <artifactId>spring-boot-maven-plugin</artifactId> 
+		<executions> <execution> <goals> <goal>repackage</goal> </goals> </execution> 
+		</executions> </plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> 
+		<artifactId>maven-surefire-plugin</artifactId> <configuration> <skip>true</skip> 
+		</configuration> </plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> 
+		<artifactId>maven-deploy-plugin</artifactId> <configuration> <skip>true</skip> 
+		</configuration> </plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> 
+		<artifactId>maven-source-plugin</artifactId> <executions> <execution> <id>attach-source</id> 
+		要绑定到的生命周期的阶段 在verify之后，install之前执行下面指定的goal <phase>verify</phase> <goals> 
+		类似执行mvn source:jar <goal>jar-no-fork</goal> </goals> </execution> </executions> 
+		</plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-resources-plugin</artifactId> 
+		<configuration> <delimiters> <delimiter>${resource.delimiter}</delimiter> 
+		</delimiters> 使用maven替换资源文件占位符1.3必须为开启 <useDefaultDelimiters>true</useDefaultDelimiters> 
+		</configuration> </plugin> </plugins> </build> -->
+
+	<build>
+		<finalName>jiahou-dizhu</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>com.version.DiZhuServer</mainClass>
+					<layout>ZIP</layout>
+					<executable>true</executable>
+					<includes>
+						<include>
+							<groupId>nothing</groupId>
+							<artifactId>nothing</artifactId>
+						</include>
+					</includes>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-source</id>
+						<!-- 要绑定到的生命周期的阶段 在verify之后，install之前执行下面指定的goal -->
+						<phase>verify</phase>
+						<goals>
+							<!-- 类似执行mvn source:jar -->
+							<goal>jar-no-fork</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<configuration>
+					<delimiters>
+						<delimiter>${resource.delimiter}</delimiter>
+					</delimiters>
+					<!-- 使用maven替换资源文件占位符1.3必须为开启 -->
+					<useDefaultDelimiters>true</useDefaultDelimiters>
+				</configuration>
+			</plugin>
+		</plugins>
+
+		<!-- 在打包时放开 -->
+	<!-- <resources> <resource> <directory>src/main/resources</directory> <excludes> 
+		<exclude>*</exclude> </excludes> <filtering>true</filtering> </resource> 
+		</resources> -->
+	</build>
+</project>
